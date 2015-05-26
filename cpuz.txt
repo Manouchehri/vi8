@@ -1,0 +1,3733 @@
+CPU-Z TXT Report
+-------------------------------------------------------------------------
+
+Binaries
+-------------------------------------------------------------------------
+
+CPU-Z version			1.72.0.x32
+
+Processors
+-------------------------------------------------------------------------
+
+Number of processors		1
+Number of threads		4
+
+APICs
+-------------------------------------------------------------------------
+
+Processor 0	
+	-- Core 0	
+		-- Thread 0	0
+	-- Core 1	
+		-- Thread 0	2
+	-- Core 2	
+		-- Thread 0	4
+	-- Core 3	
+		-- Thread 0	6
+
+Timers
+-------------------------------------------------------------------------
+
+	ACPI timer		3.580 MHz
+	HPET timer		14.318 MHz
+	Perf timer		1.302 MHz
+	Sys timer		1.000 KHz
+
+
+Processors Information
+-------------------------------------------------------------------------
+
+Processor 1			ID = 0
+	Number of cores		4 (max 8)
+	Number of threads	4 (max 16)
+	Name			Intel Atom Z3735F
+	Codename		Bay Trail-CR
+	Specification		Intel(R) Atom(TM) CPU  Z3735F @ 1.33GHz
+	Package (platform ID)	Socket 1380 BGA (0x1)
+	CPUID			6.7.8
+	Extended CPUID		6.37
+	Core Stepping		C0
+	Technology		22 nm
+	Tjmax			90.0 °C
+	Core Speed		1583.3 MHz
+	Multiplier x Bus Speed	19.0 x 83.3 MHz
+	Stock frequency		1333 MHz
+	Instructions sets	MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, EM64T, VT-x, AES
+	L1 Data cache		4 x 24 KBytes, 6-way set associative, 64-byte line size
+	L1 Instruction cache	4 x 32 KBytes, 8-way set associative, 64-byte line size
+	L2 cache		2 x 1024 KBytes, 16-way set associative, 64-byte line size
+	FID/VID Control		yes
+
+
+	Max non-turbo ratio	16x
+	Max turbo ratio		22x
+	Ratio 1 core		22x
+	Ratio 2 cores		22x
+	Ratio 3 cores		19x
+	Ratio 4 cores		19x
+
+
+Thread dumps
+-------------------------------------------------------------------------
+
+CPU Thread 0	
+	APIC ID			0
+	Topology		Processor ID 0, Core ID 0, Thread ID 0
+	Type			01010201h
+	Max CPUID level		0000000Bh
+	Max CPUID ext. level	80000008h
+	Cache descriptor	Level 1, D, 24 KB, 1 thread(s)
+	Cache descriptor	Level 1, I, 32 KB, 1 thread(s)
+	Cache descriptor	Level 2, U, 1 MB, 4 thread(s)
+
+	CPUID		 
+	0x00000000		0x0000000B	0x756E6547	0x6C65746E	0x49656E69
+	0x00000001		0x00030678	0x00100800	0x43D8E3BF	0xBFEBFBFF
+	0x00000002		0x61B3A001	0x0000FFC2	0x00000000	0x00000000
+	0x00000003		0x00000000	0x00000000	0x00000000	0x00000000
+	0x00000004		0x1C000121	0x0140003F	0x0000003F	0x00000001
+	0x00000004		0x1C000122	0x01C0003F	0x0000003F	0x00000001
+	0x00000004		0x1C00C143	0x03C0003F	0x000003FF	0x00000001
+	0x00000005		0x00000040	0x00000040	0x00000003	0x33000020
+	0x00000006		0x00000007	0x00000002	0x00000009	0x00000000
+	0x00000007		0x00000000	0x00002282	0x00000000	0x00000000
+	0x00000008		0x00000000	0x00000000	0x00000000	0x00000000
+	0x00000009		0x00000000	0x00000000	0x00000000	0x00000000
+	0x0000000A		0x07280203	0x00000000	0x00000000	0x00004503
+	0x0000000B		0x00000001	0x00000001	0x00000100	0x00000000
+	0x0000000B		0x00000004	0x00000004	0x00000201	0x00000000
+	0x80000000		0x80000008	0x00000000	0x00000000	0x00000000
+	0x80000001		0x00000000	0x00000000	0x00000101	0x28100000
+	0x80000002		0x20202020	0x20202020	0x65746E49	0x2952286C
+	0x80000003		0x6F744120	0x4D54286D	0x50432029	0x5A202055
+	0x80000004		0x35333733	0x20402046	0x33332E31	0x007A4847
+	0x80000005		0x00000000	0x00000000	0x00000000	0x00000000
+	0x80000006		0x00000000	0x00000000	0x04008040	0x00000000
+	0x80000007		0x00000000	0x00000000	0x00000000	0x00000100
+	0x80000008		0x00003024	0x00000000	0x00000000	0x00000000
+
+	MSR 0x0000001B		0x00000000	0xFEE00900
+	MSR 0x0000003A		0x00000000	0x00000005
+	MSR 0x000001A0		0x00000000	0x00850089
+	MSR 0x0000066C		0x00000000	0x13131616
+	MSR 0x00000017		0x00040000	0x90141640
+	MSR 0x000000CE		0x00000600	0x00001000
+	MSR 0x000000CD		0x00000000	0x00000000
+	MSR 0x00000606		0x00000000	0x00000505
+	MSR 0x00000601		0x00000000	0x00000000
+	MSR 0x00000610		0x00000000	0x000280A0
+	MSR 0x00000611		0x00000000	0x00744DC1
+	MSR 0x00000639		0x00000000	0x0058C907
+	MSR 0x0000019C		0x00000000	0x882B0040
+	MSR 0x000001A2		0x00000000	0x005A0000
+	MSR 0x00000198		0x00006800	0x0000133A
+	MSR 0x00000199		0x00000000	0x00001640
+
+CPU Thread 1	
+	APIC ID			2
+	Topology		Processor ID 0, Core ID 1, Thread ID 0
+	Type			01010201h
+	Max CPUID level		0000000Bh
+	Max CPUID ext. level	80000008h
+	Cache descriptor	Level 1, D, 24 KB, 1 thread(s)
+	Cache descriptor	Level 1, I, 32 KB, 1 thread(s)
+	Cache descriptor	Level 2, U, 1 MB, 4 thread(s)
+
+	CPUID		 
+	0x00000000		0x0000000B	0x756E6547	0x6C65746E	0x49656E69
+	0x00000001		0x00030678	0x02100800	0x43D8E3BF	0xBFEBFBFF
+	0x00000002		0x61B3A001	0x0000FFC2	0x00000000	0x00000000
+	0x00000003		0x00000000	0x00000000	0x00000000	0x00000000
+	0x00000004		0x1C000121	0x0140003F	0x0000003F	0x00000001
+	0x00000004		0x1C000122	0x01C0003F	0x0000003F	0x00000001
+	0x00000004		0x1C00C143	0x03C0003F	0x000003FF	0x00000001
+	0x00000005		0x00000040	0x00000040	0x00000003	0x33000020
+	0x00000006		0x00000007	0x00000002	0x00000009	0x00000000
+	0x00000007		0x00000000	0x00002282	0x00000000	0x00000000
+	0x00000008		0x00000000	0x00000000	0x00000000	0x00000000
+	0x00000009		0x00000000	0x00000000	0x00000000	0x00000000
+	0x0000000A		0x07280203	0x00000000	0x00000000	0x00004503
+	0x0000000B		0x00000001	0x00000001	0x00000100	0x00000002
+	0x0000000B		0x00000004	0x00000004	0x00000201	0x00000002
+	0x80000000		0x80000008	0x00000000	0x00000000	0x00000000
+	0x80000001		0x00000000	0x00000000	0x00000101	0x28100000
+	0x80000002		0x20202020	0x20202020	0x65746E49	0x2952286C
+	0x80000003		0x6F744120	0x4D54286D	0x50432029	0x5A202055
+	0x80000004		0x35333733	0x20402046	0x33332E31	0x007A4847
+	0x80000005		0x00000000	0x00000000	0x00000000	0x00000000
+	0x80000006		0x00000000	0x00000000	0x04008040	0x00000000
+	0x80000007		0x00000000	0x00000000	0x00000000	0x00000100
+	0x80000008		0x00003024	0x00000000	0x00000000	0x00000000
+
+	MSR 0x0000001B		0x00000000	0xFEE00800
+	MSR 0x0000003A		0x00000000	0x00000005
+	MSR 0x000001A0		0x00000000	0x00850089
+	MSR 0x0000066C		0x00000000	0x13131616
+	MSR 0x00000017		0x00040000	0x90141640
+	MSR 0x000000CE		0x00000600	0x00001000
+	MSR 0x000000CD		0x00000000	0x00000000
+	MSR 0x00000606		0x00000000	0x00000505
+	MSR 0x00000601		0x00000000	0x00000000
+	MSR 0x00000610		0x00000000	0x000280A0
+	MSR 0x00000611		0x00000000	0x0074517D
+	MSR 0x00000639		0x00000000	0x0058CBDC
+	MSR 0x0000019C		0x00000000	0x882C0040
+	MSR 0x000001A2		0x00000000	0x005A0000
+	MSR 0x00000198		0x00006800	0x0000133A
+	MSR 0x00000199		0x00000000	0x00001640
+
+CPU Thread 2	
+	APIC ID			4
+	Topology		Processor ID 0, Core ID 2, Thread ID 0
+	Type			01010201h
+	Max CPUID level		0000000Bh
+	Max CPUID ext. level	80000008h
+	Cache descriptor	Level 1, D, 24 KB, 1 thread(s)
+	Cache descriptor	Level 1, I, 32 KB, 1 thread(s)
+	Cache descriptor	Level 2, U, 1 MB, 4 thread(s)
+
+	CPUID		 
+	0x00000000		0x0000000B	0x756E6547	0x6C65746E	0x49656E69
+	0x00000001		0x00030678	0x04100800	0x43D8E3BF	0xBFEBFBFF
+	0x00000002		0x61B3A001	0x0000FFC2	0x00000000	0x00000000
+	0x00000003		0x00000000	0x00000000	0x00000000	0x00000000
+	0x00000004		0x1C000121	0x0140003F	0x0000003F	0x00000001
+	0x00000004		0x1C000122	0x01C0003F	0x0000003F	0x00000001
+	0x00000004		0x1C00C143	0x03C0003F	0x000003FF	0x00000001
+	0x00000005		0x00000040	0x00000040	0x00000003	0x33000020
+	0x00000006		0x00000007	0x00000002	0x00000009	0x00000000
+	0x00000007		0x00000000	0x00002282	0x00000000	0x00000000
+	0x00000008		0x00000000	0x00000000	0x00000000	0x00000000
+	0x00000009		0x00000000	0x00000000	0x00000000	0x00000000
+	0x0000000A		0x07280203	0x00000000	0x00000000	0x00004503
+	0x0000000B		0x00000001	0x00000001	0x00000100	0x00000004
+	0x0000000B		0x00000004	0x00000004	0x00000201	0x00000004
+	0x80000000		0x80000008	0x00000000	0x00000000	0x00000000
+	0x80000001		0x00000000	0x00000000	0x00000101	0x28100000
+	0x80000002		0x20202020	0x20202020	0x65746E49	0x2952286C
+	0x80000003		0x6F744120	0x4D54286D	0x50432029	0x5A202055
+	0x80000004		0x35333733	0x20402046	0x33332E31	0x007A4847
+	0x80000005		0x00000000	0x00000000	0x00000000	0x00000000
+	0x80000006		0x00000000	0x00000000	0x04008040	0x00000000
+	0x80000007		0x00000000	0x00000000	0x00000000	0x00000100
+	0x80000008		0x00003024	0x00000000	0x00000000	0x00000000
+
+	MSR 0x0000001B		0x00000000	0xFEE00800
+	MSR 0x0000003A		0x00000000	0x00000005
+	MSR 0x000001A0		0x00000000	0x00850089
+	MSR 0x0000066C		0x00000000	0x13131616
+	MSR 0x00000017		0x00040000	0x90141339
+	MSR 0x000000CE		0x00000600	0x00001000
+	MSR 0x000000CD		0x00000000	0x00000000
+	MSR 0x00000606		0x00000000	0x00000505
+	MSR 0x00000601		0x00000000	0x00000000
+	MSR 0x00000610		0x00000000	0x000280A0
+	MSR 0x00000611		0x00000000	0x007454B8
+	MSR 0x00000639		0x00000000	0x0058CE7E
+	MSR 0x0000019C		0x00000000	0x882B0040
+	MSR 0x000001A2		0x00000000	0x005A0000
+	MSR 0x00000198		0x00006800	0x0000133A
+	MSR 0x00000199		0x00000000	0x00001640
+
+CPU Thread 3	
+	APIC ID			6
+	Topology		Processor ID 0, Core ID 3, Thread ID 0
+	Type			01010201h
+	Max CPUID level		0000000Bh
+	Max CPUID ext. level	80000008h
+	Cache descriptor	Level 1, D, 24 KB, 1 thread(s)
+	Cache descriptor	Level 1, I, 32 KB, 1 thread(s)
+	Cache descriptor	Level 2, U, 1 MB, 4 thread(s)
+
+	CPUID		 
+	0x00000000		0x0000000B	0x756E6547	0x6C65746E	0x49656E69
+	0x00000001		0x00030678	0x06100800	0x43D8E3BF	0xBFEBFBFF
+	0x00000002		0x61B3A001	0x0000FFC2	0x00000000	0x00000000
+	0x00000003		0x00000000	0x00000000	0x00000000	0x00000000
+	0x00000004		0x1C000121	0x0140003F	0x0000003F	0x00000001
+	0x00000004		0x1C000122	0x01C0003F	0x0000003F	0x00000001
+	0x00000004		0x1C00C143	0x03C0003F	0x000003FF	0x00000001
+	0x00000005		0x00000040	0x00000040	0x00000003	0x33000020
+	0x00000006		0x00000007	0x00000002	0x00000009	0x00000000
+	0x00000007		0x00000000	0x00002282	0x00000000	0x00000000
+	0x00000008		0x00000000	0x00000000	0x00000000	0x00000000
+	0x00000009		0x00000000	0x00000000	0x00000000	0x00000000
+	0x0000000A		0x07280203	0x00000000	0x00000000	0x00004503
+	0x0000000B		0x00000001	0x00000001	0x00000100	0x00000006
+	0x0000000B		0x00000004	0x00000004	0x00000201	0x00000006
+	0x80000000		0x80000008	0x00000000	0x00000000	0x00000000
+	0x80000001		0x00000000	0x00000000	0x00000101	0x28100000
+	0x80000002		0x20202020	0x20202020	0x65746E49	0x2952286C
+	0x80000003		0x6F744120	0x4D54286D	0x50432029	0x5A202055
+	0x80000004		0x35333733	0x20402046	0x33332E31	0x007A4847
+	0x80000005		0x00000000	0x00000000	0x00000000	0x00000000
+	0x80000006		0x00000000	0x00000000	0x04008040	0x00000000
+	0x80000007		0x00000000	0x00000000	0x00000000	0x00000100
+	0x80000008		0x00003024	0x00000000	0x00000000	0x00000000
+
+	MSR 0x0000001B		0x00000000	0xFEE00800
+	MSR 0x0000003A		0x00000000	0x00000005
+	MSR 0x000001A0		0x00000000	0x00850089
+	MSR 0x0000066C		0x00000000	0x13131616
+	MSR 0x00000017		0x00040000	0x90141339
+	MSR 0x000000CE		0x00000600	0x00001000
+	MSR 0x000000CD		0x00000000	0x00000000
+	MSR 0x00000606		0x00000000	0x00000505
+	MSR 0x00000601		0x00000000	0x00000000
+	MSR 0x00000610		0x00000000	0x000280A0
+	MSR 0x00000611		0x00000000	0x00745822
+	MSR 0x00000639		0x00000000	0x0058D125
+	MSR 0x0000019C		0x00000000	0x882B0040
+	MSR 0x000001A2		0x00000000	0x005A0000
+	MSR 0x00000198		0x00006800	0x0000133A
+	MSR 0x00000199		0x00000000	0x00001640
+
+
+
+Chipset
+-------------------------------------------------------------------------
+
+Northbridge			Intel Bay Trail Host Bridge rev. 0F
+Southbridge			Intel Bay Trail LPC Bridge rev. 0F
+Memory Type			DDR3
+Memory Size			1988 MBytes
+Memory Frequency		666.7 MHz (1:8)
+CAS# latency (CL)		9.0
+RAS# to CAS# delay (tRCD)	9
+RAS# Precharge (tRP)		9
+Cycle Time (tRAS)		24
+Command Rate (CR)		1T
+
+Memory SPD
+-------------------------------------------------------------------------
+
+
+Monitoring
+-------------------------------------------------------------------------
+
+Mainboard Model		Type2 - Board Product Name (0x000008CB - 0x0B9751E4)
+
+LPCIO
+-------------------------------------------------------------------------
+
+Hardware Monitors
+-------------------------------------------------------------------------
+
+Hardware monitor	ACPI
+	Temperature 0	39°C (102°F) [0xC32] (TZ00)
+
+Hardware monitor	Battery
+	Voltage 0	3.70 Volts [0xE70] (Current Voltage)
+	Capacity 0	15540 mWh [0x3CB4] (Designed Capacity)
+	Capacity 1	15459 mWh [0x3C63] (Full Charge Capacity)
+	Capacity 2	1236 mWh [0x4D4] (Current Capacity)
+	Level 0		1 pc [0x63] (Wear Level)
+	Level 1		8 pc [0x7] (Charge Level)
+
+
+PCI Devices
+-------------------------------------------------------------------------
+
+Description			Host Bridge
+Location			bus 0 (0x00), device 0 (0x00), function 0 (0x00)
+Common header
+	Vendor ID		0x8086
+	Model ID		0x0F00
+	Revision ID		0x0F
+	PI			0x00
+	SubClass		0x00
+	BaseClass		0x06
+	Cache Line		0x00
+	Latency			0x00
+	Header			0x00
+PCI header
+	Subvendor ID		0x8086
+	Subsystem ID		0x7270
+	Int. Line		0x00
+	Int. Pin		0x00
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 00 0F 07 00 00 00 0F 00 00 06 00 00 00 00 
+	10	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	20	00 00 00 00 00 00 00 00 00 00 00 00 86 80 70 72 
+	30	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	40	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	50	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	60	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	70	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	80	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	90	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	F0	66 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+Description			VGA Controller
+Location			bus 0 (0x00), device 2 (0x02), function 0 (0x00)
+Common header
+	Vendor ID		0x8086
+	Model ID		0x0F31
+	Revision ID		0x0F
+	PI			0x00
+	SubClass		0x00
+	BaseClass		0x03
+	Cache Line		0x00
+	Latency			0x00
+	Header			0x00
+PCI header
+	Address 0 (memory)	0x90000000
+	Address 2 (memory)	0x80000000
+	Address 4 (port)	0x00001000
+	Subvendor ID		0x8086
+	Subsystem ID		0x7270
+	Int. Line		0x00
+	Int. Pin		0x01
+PCI capability
+	Caps class		Power Management
+	Caps offset		0xD0
+	Caps version		1.1
+PCI capability
+	Caps class		Message Signalled Interrupts
+	Caps offset		0x90
+PCI capability
+	Caps class		Vendor Dependant
+	Caps offset		0xB0
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 31 0F 07 04 10 00 0F 00 00 03 00 00 00 00 
+	10	00 00 00 90 00 00 00 00 08 00 00 80 00 00 00 00 
+	20	01 10 00 00 00 00 00 00 00 00 00 00 86 80 70 72 
+	30	00 00 00 00 D0 00 00 00 00 00 00 00 00 01 00 00 
+	40	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	50	09 02 00 00 00 00 00 00 00 00 00 00 01 00 F0 7C 
+	60	00 00 02 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	70	01 00 D0 7C 07 00 00 00 00 00 00 00 00 00 00 00 
+	80	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	90	05 B0 01 00 0C F0 E0 FE B5 49 00 00 00 00 00 00 
+	A0	00 00 00 00 13 00 06 03 00 00 00 00 00 00 00 00 
+	B0	09 00 07 01 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	01 90 22 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	E0	00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	F0	00 00 00 00 00 00 00 00 D1 0F 01 00 10 F0 C5 7C 
+
+Description			USB Controller
+Location			bus 0 (0x00), device 20 (0x14), function 0 (0x00)
+Common header
+	Vendor ID		0x8086
+	Model ID		0x0F35
+	Revision ID		0x0F
+	PI			0x30
+	SubClass		0x03
+	BaseClass		0x0C
+	Cache Line		0x00
+	Latency			0x00
+	Header			0x00
+PCI header
+	Address 0 (memory)	0x90800000
+	Subvendor ID		0x8086
+	Subsystem ID		0x7270
+	Int. Line		0x00
+	Int. Pin		0x01
+PCI capability
+	Caps class		Power Management
+	Caps offset		0x70
+	Caps version		1.1
+PCI capability
+	Caps class		Message Signalled Interrupts
+	Caps offset		0x80
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 35 0F 00 04 90 02 0F 30 03 0C 00 00 00 00 
+	10	04 00 80 90 00 00 00 00 00 00 00 00 00 00 00 00 
+	20	00 00 00 00 00 00 00 00 00 00 00 00 86 80 70 72 
+	30	00 00 00 00 70 00 00 00 00 00 00 00 00 01 00 00 
+	40	FD 01 04 80 8F C6 CF 83 00 00 00 00 00 00 00 00 
+	50	5F 6E CE 0B 00 00 00 00 00 00 00 00 00 00 00 00 
+	60	30 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	70	01 80 C2 C1 0B 01 00 00 00 00 00 00 00 00 00 00 
+	80	05 00 B6 00 0C F0 E0 FE 00 00 00 00 B8 49 00 00 
+	90	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	A0	00 01 04 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	B0	8F 00 00 10 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	03 0C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	3F 00 00 00 3F 00 00 00 01 00 00 00 01 00 00 00 
+	E0	30 2C 00 00 00 00 00 00 00 00 00 00 D8 D8 00 00 
+	F0	00 00 00 00 00 00 00 00 1A 0F 0F 01 00 00 00 00 
+
+Description			Encryption Device
+Location			bus 0 (0x00), device 26 (0x1A), function 0 (0x00)
+Common header
+	Vendor ID		0x8086
+	Model ID		0x0F18
+	Revision ID		0x0F
+	PI			0x00
+	SubClass		0x80
+	BaseClass		0x10
+	Cache Line		0x00
+	Latency			0x00
+	Header			0x00
+PCI header
+	Address 0 (memory)	0x90700000
+	Address 1 (memory)	0x90600000
+	Subvendor ID		0x8086
+	Subsystem ID		0x7270
+	Int. Line		0x00
+	Int. Pin		0x01
+PCI capability
+	Caps class		Power Management
+	Caps offset		0x80
+	Caps version		1.2
+PCI capability
+	Caps class		Message Signalled Interrupts
+	Caps offset		0xA0
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 18 0F 00 05 10 00 0F 00 80 10 00 00 00 00 
+	10	00 00 70 90 00 00 60 90 00 00 00 00 00 00 00 00 
+	20	00 00 00 00 00 00 00 00 00 00 00 00 86 80 70 72 
+	30	00 00 00 00 80 00 00 00 00 00 00 00 00 01 00 00 
+	40	D5 00 00 1F 00 40 00 80 00 00 00 60 00 00 00 00 
+	50	0C 00 00 00 04 01 00 00 00 00 00 00 00 00 00 00 
+	60	00 00 00 10 01 00 00 00 00 00 00 00 00 00 00 00 
+	70	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	80	01 A0 03 48 0B 01 00 00 00 00 00 00 01 00 00 00 
+	90	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	A0	05 00 00 00 0C F0 E0 FE B3 49 00 00 00 00 00 00 
+	B0	00 00 00 80 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	09 10 00 00 00 00 F0 7E 00 00 00 01 00 00 00 00 
+	D0	09 10 00 00 00 00 F0 7F 00 10 00 00 00 00 00 00 
+	E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	F0	00 00 00 00 00 00 00 00 1A 0F 0F 01 00 00 00 00 
+
+Description			PCI to ISA Bridge
+Location			bus 0 (0x00), device 31 (0x1F), function 0 (0x00)
+Common header
+	Vendor ID		0x8086
+	Model ID		0x0F1C
+	Revision ID		0x0F
+	PI			0x00
+	SubClass		0x01
+	BaseClass		0x06
+	Cache Line		0x00
+	Latency			0x00
+	Header			0x80
+PCI header
+	Subvendor ID		0x8086
+	Subsystem ID		0x7270
+	Int. Line		0x00
+	Int. Pin		0x00
+PCI capability
+	Caps class		Vendor Dependant
+	Caps offset		0xE0
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 1C 0F 07 01 10 02 0F 00 01 06 00 00 80 00 
+	10	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	20	00 00 00 00 00 00 00 00 00 00 00 00 86 80 70 72 
+	30	00 00 00 00 E0 00 00 00 00 00 00 00 00 00 00 00 
+	40	03 04 00 00 02 30 D0 FE 03 05 00 00 02 C0 D0 FE 
+	50	02 80 D0 FE 02 10 D0 FE 02 00 F0 FE 02 50 D0 FE 
+	60	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	70	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	80	01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	90	01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	00 00 00 00 00 00 00 00 CF FF 00 00 00 00 00 00 
+	E0	09 00 0C 10 00 00 00 00 00 00 00 00 00 00 00 00 
+	F0	01 C0 D1 FE 00 00 00 00 1A 0F 0F 01 03 03 00 00 
+
+
+DMI
+-------------------------------------------------------------------------
+
+DMI BIOS		
+	vendor			INSYDE Corp.
+	version			CHUWI.D86JDBNR03
+	date			03/19/2015
+	ROM size		3072 KB
+
+DMI System Information		
+	manufacturer		Insyde
+	product			i86
+	version			Type1 - TBD by OEM
+	serial			Type1 - 123456789
+	UUID			{12345678-1234-5678-90AB-CDDEEFAABBCC}
+	SKU			Type1 - SKU0
+	family			Type1 - Family
+
+DMI Baseboard		
+	vendor			Type2 - Board Manufacturer
+	model			Type2 - Board Product Name
+	revision		Type2 - Board Version
+	serial			Type2 - Board Serial Number
+
+DMI System Enclosure		
+	manufacturer		Chassis Manufacturer
+	chassis type		Notebook
+	chassis serial		Chassis Serial Number
+
+DMI Processor		
+	manufacturer		Intel(R) Corporation
+	model			Intel(R) Atom(TM) CPU  Z3735F @ 1.33GHz
+	clock speed		1339.0 MHz
+	FSB speed		83.0 MHz
+	multiplier		16.0x
+
+DMI Memory Module		
+	designation		DIMM0
+	size			2048 MBytes (single bank)
+
+DMI Memory Module		
+	designation		DIMM1
+
+DMI Port Connector		
+	designation		J7A1 (internal)
+	designation		Micro HDMI (external)
+	port type		Video Port
+
+DMI Port Connector		
+	designation		J8A1 (internal)
+	designation		Displat Port (external)
+	port type		Video Port
+
+DMI Port Connector		
+	designation		J5A1 (internal)
+	designation		USB3.0 AB (external)
+	port type		USB
+	connector		Access Bus (USB)
+
+DMI Port Connector		
+	designation		J6A1 (internal)
+	designation		USB3.0 Dock/USB2.0 (external)
+	port type		USB
+	connector		Access Bus (USB)
+
+DMI Port Connector		
+	designation		CON9E1 (internal)
+	designation		Micro SDCard (external)
+
+DMI Port Connector		
+	designation		J9A1 (internal)
+	designation		SIM Card (external)
+
+DMI Port Connector		
+	designation		J9E1 (internal)
+	designation		Audio Jack (external)
+	port type		Audio Port
+	connector		Mini Jack (headphones)
+
+DMI OEM Strings		
+	string[0]		Insyde Chipset
+
+DMI Physical Memory Array		
+	location		Motherboard
+	usage			System Memory
+	correction		None
+	max capacity		4096 MBytes
+	max# of devices		2
+
+DMI Memory Device		
+	designation		DIMM0
+	format			SODIMM
+	type			unknown
+	total width		32 bits
+	data width		32 bits
+	size			2048 MBytes
+
+DMI Memory Device		
+	designation		DIMM1
+	format			SODIMM
+	type			unknown
+	total width		32 bits
+	data width		32 bits
+
+
+Storage
+-------------------------------------------------------------------------
+
+Drive	0
+	Device Path		\\?\sd#disk&generic&ncard&1.0#4&1d2ffda7&0&6d739e56#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+	Type			Fixed
+	Name			VID:88 NCard
+	Capacity		28.9 GB
+	SMART Support		Yes
+
+USB Devices
+-------------------------------------------------------------------------
+
+
+Graphics
+-------------------------------------------------------------------------
+
+Number of adapters		1
+
+Graphic APIs
+-------------------------------------------------------------------------
+
+API				Intel I/O
+
+Display Adapters
+-------------------------------------------------------------------------
+
+Display adapter 0	
+	Display name		\\.\DISPLAY1
+	Name			Intel(R) HD Graphics
+	Board Manufacturer	Intel Corporation
+	Memory size		1025 MB
+	PCI device		bus 0 (0x0), device 2 (0x2), function 0 (0x0)
+	Vendor ID		0x8086 (0x8086)
+	Model ID		0x0F31 (0x7270)
+	Performance Level	0
+
+Win32_VideoController		AdapterRAM = 0x40123800 (1074935808)
+Win32_VideoController		DriverVersion = 10.18.10.3910
+Win32_VideoController		DriverDate = 08/13/2014
+
+Monitor 0	
+	Model			FY08021DI27A1 ()
+	ID			CMN0001
+	Serial			
+	Manufacturing Date	Week 0, Year 2002
+	Size			7.1 inches
+	Max Resolution		800 x 1280 @ 59 Hz
+	Horizontal Freq. Range	0-159 kHz
+	Vertical Freq. Range	0-60 Hz
+	Max Pixel Clock		70 MHz
+	Gamma Factor		2.2
+
+
+Software
+-------------------------------------------------------------------------
+
+Windows Version			Microsoft Windows 8.1 (6.3) 32-bit   (Build 9600) 
+DirectX Version			11.0
+
+ACPI
+-------------------------------------------------------------------------
+
+ACPI Tree		
+_GPE
+_PR_
+  CPU0
+    HI0_
+    HC0_
+    _PDC
+    _OSC
+    CPDC
+    COSC
+    GCAP
+    _TPC
+    _PTC
+    TSSI
+    TSSM
+    TSSF
+    _TSS
+    _TDL
+    _TSD
+    _PPC
+    _PCT
+    _PSS
+    SPSS
+    NPSS
+    _PSD
+    DEB0
+    [ ]
+    DBG8
+    _CST
+  CPU1
+    HI1_
+    HC1_
+    _PDC
+    _OSC
+    GCAP
+    APCT
+    APPT
+    _TPC
+    _PTC
+    _TSS
+    _TSD
+    _PPC
+    _PCT
+    _PSS
+    _PSD
+    _CST
+  CPU2
+    HI1_
+    HC1_
+    _PDC
+    _OSC
+    GCAP
+    APCT
+    APPT
+    _TPC
+    _PTC
+    _TSS
+    _TSD
+    _PPC
+    _PCT
+    _PSS
+    _PSD
+    _CST
+  CPU3
+    HI1_
+    HC1_
+    _PDC
+    _OSC
+    GCAP
+    APCT
+    APPT
+    _TPC
+    _PTC
+    _TSS
+    _TSD
+    _PPC
+    _PCT
+    _PSS
+    _PSD
+    _CST
+_SB_
+  RTC_
+    _HID
+    _CRS
+  HPET
+    _HID
+    _UID
+    _STA
+    _CRS
+  PR00
+  AR00
+  PR04
+  AR04
+  PR05
+  AR05
+  PR06
+  AR06
+  PR07
+  AR07
+  PR01
+  AR01
+  PRSA
+  PRSB
+  PRSC
+  PRSD
+  PRSE
+  PRSF
+  PRSG
+  PRSH
+  PCI0
+    _HID
+    _CID
+    _ADR
+    _BBN
+    _UID
+    _DEP
+    _PRT
+    VLVC
+      _ADR
+      HBUS
+      [ ]
+      [ ]
+      SMCR
+      SMDR
+      MCRX
+      RMBR
+      WMBR
+    _CRS
+    RES0
+    GUID
+    SUPP
+    CTRL
+    _OSC
+    LPCB
+      _ADR
+      LPC0
+      [ ]
+      [ ]
+      SRID
+      [ ]
+      C1EN
+      [ ]
+      FWHD
+        _HID
+        _CRS
+      IPIC
+        _HID
+        _CRS
+      LDRC
+        _HID
+        _UID
+        _CRS
+      TIMR
+        _HID
+        _CRS
+      IUR3
+        _HID
+        _UID
+        _STA
+        _DIS
+        _CRS
+      PKBS
+      [ ]
+      PKBD
+      [ ]
+      [ ]
+      [ ]
+      PKBC
+      PS2K
+        _HID
+        _STA
+        _CRS
+        _PRS
+      PS2M
+        _HID
+        _STA
+        _CRS
+        _PRS
+    XHC1
+      _ADR
+      _DDN
+      _DEP
+      _STR
+      _S0W
+      MSET
+      DDST
+      PCSL
+      [ ]
+      PMPS
+      PCSH
+      [ ]
+      PMCH
+      XMSE
+      [ ]
+      [ ]
+      [ ]
+      CMSE
+      [ ]
+      BAR0
+      [ ]
+      PMCS
+      [ ]
+      [ ]
+      PHY2
+      [ ]
+      USHP
+      [ ]
+      SCFG
+      PWOF
+      PWON
+      XPRT
+      [ ]
+      DVID
+      [ ]
+      D0D3
+      [ ]
+      PMEE
+      [ ]
+      PMES
+      [ ]
+      [ ]
+      MB13
+      MB14
+      [ ]
+      [ ]
+      PR2_
+      PR2M
+      PR3_
+      PR3M
+      XHCP
+      [ ]
+      [ ]
+      PDBM
+      [ ]
+      MEMB
+      PCHS
+      SRMB
+      _PS0
+      _PS3
+      _DSW
+      _RMV
+      _PR3
+      _STA
+      RHUB
+        _ADR
+        SSP1
+          _ADR
+          _UPC
+          _PLD
+          _DSM
+        HS01
+          _ADR
+          _UPC
+          _PLD
+          _DSM
+        HS02
+          _ADR
+          _UPC
+          _PLD
+          _DSM
+        HS03
+          _ADR
+          _DEP
+          PSTS
+          WWPR
+            _DEP
+            _STA
+            _ON_
+            _OFF
+          _S0W
+          _PR0
+          _PR2
+          _PR3
+          _UPC
+          _PLD
+          _DSM
+          MODM
+            _ADR
+            _PR0
+            _PR2
+            _PR3
+        HS04
+          _ADR
+          _UPC
+          _PLD
+          _DSM
+        HSC1
+          _ADR
+          _UPC
+          _PLD
+          _DSM
+        HSC2
+          _ADR
+          _UPC
+          _PLD
+          _DSM
+    OTG1
+      _ADR
+      _DDN
+      _STR
+      _S0W
+      PMEB
+      [ ]
+      [ ]
+      PMEE
+      [ ]
+      PMES
+      GENR
+      [ ]
+      [ ]
+      CPME
+      U2EN
+      U3EN
+      _PS3
+      _PS0
+      _DSW
+      _RMV
+      _PR3
+      _STA
+    EHC1
+      _ADR
+      _DEP
+      PWKE
+      [ ]
+      [ ]
+      PWUC
+      _PSW
+      HUBN
+        _ADR
+        PR01
+          _ADR
+          _UPC
+          _PLD
+          PR11
+            _ADR
+            _UPC
+            _PLD
+          PR12
+            _ADR
+            _UPC
+            _PLD
+          PR13
+            _ADR
+            _UPC
+            _PLD
+          PR14
+            _ADR
+            _UPC
+            _PLD
+            _DSM
+          PR15
+            _ADR
+            _UPC
+            _PLD
+            _DSM
+          PR16
+            _ADR
+            _UPC
+            _PLD
+            _DSM
+          PR17
+            _ADR
+            _UPC
+            _PLD
+            _DSM
+          PR18
+            _ADR
+            _UPC
+            _PLD
+      _S0W
+      USBR
+      [ ]
+      [ ]
+      PMEE
+      [ ]
+      PMES
+      _STA
+      _DSW
+      _RMV
+      _PR3
+    SEC0
+      _ADR
+      _DEP
+      _S0W
+      PMEB
+      [ ]
+      [ ]
+      PMEE
+      [ ]
+      PMES
+      _DSW
+      RBUF
+      _CRS
+    GFX0
+      _ADR
+      _DEP
+      _CRS
+      _S0W
+      _PS3
+      _PS0
+      _DOS
+      _DOD
+      DD01
+        _ADR
+        _DCS
+        _DGS
+        _DSS
+      DD02
+        _ADR
+        _DCS
+        _DGS
+        _DSS
+      DD03
+        _ADR
+        _DCS
+        _DGS
+        _DSS
+      DD04
+        _ADR
+        _DCS
+        _DGS
+        _DSS
+      DD05
+        _ADR
+        _DCS
+        _DGS
+        _DSS
+      DD06
+        _ADR
+        _DCS
+        _DGS
+        _DSS
+      DD07
+        _ADR
+        _DCS
+        _DGS
+        _DSS
+      DD08
+        _ADR
+        _DCS
+        _DGS
+        _DSS
+      DD1F
+        _ADR
+        _DCS
+        _DGS
+        _DSS
+        _BCL
+        _BCM
+        _BQC
+      SDDL
+      CDDS
+      NDDS
+      IGDP
+      [ ]
+      [ ]
+      MADR
+      [ ]
+      [ ]
+      GIVD
+      [ ]
+      GUMA
+      [ ]
+      [ ]
+      [ ]
+      GMFN
+      [ ]
+      [ ]
+      GSTM
+      [ ]
+      GSSE
+      GSSB
+      GSES
+      [ ]
+      ASLE
+      [ ]
+      [ ]
+      ASLS
+      IGMM
+      [ ]
+      [ ]
+      [ ]
+      DCFE
+      IGDM
+      [ ]
+      SIGN
+      SIZE
+      OVER
+      SVER
+      VVER
+      GVER
+      MBOX
+      DMOD
+      [ ]
+      DRDY
+      CSTS
+      CEVT
+      [ ]
+      DIDL
+      DDL2
+      DDL3
+      DDL4
+      DDL5
+      DDL6
+      DDL7
+      DDL8
+      CPDL
+      CPL2
+      CPL3
+      CPL4
+      CPL5
+      CPL6
+      CPL7
+      CPL8
+      CAD1
+      CAL2
+      CAL3
+      CAL4
+      CAL5
+      CAL6
+      CAL7
+      CAL8
+      NADL
+      NDL2
+      NDL3
+      NDL4
+      NDL5
+      NDL6
+      NDL7
+      NDL8
+      ASLP
+      TIDX
+      CHPD
+      CLID
+      CDCK
+      SXSW
+      EVTS
+      CNOT
+      NRDY
+      [ ]
+      SCIE
+      GEFC
+      GXFC
+      GESF
+      [ ]
+      PARM
+      DSLP
+      [ ]
+      ARDY
+      ASLC
+      TCHE
+      ALSI
+      BCLP
+      PFIT
+      CBLV
+      BCLM
+      CPFM
+      EPFM
+      PLUT
+      PFMB
+      CCDV
+      PCFT
+      [ ]
+      GVD1
+      PHED
+      BDDC
+      DBTB
+      CDCT
+      SUCC
+      NVLD
+      CRIT
+      NCRT
+      GSCI
+      PDRD
+      PSTS
+      GNOT
+      GHDS
+      GLID
+      GDCK
+      PARD
+      AINT
+      SCIP
+      ISP0
+        _ADR
+        _DDN
+        _UID
+        _DEP
+        _STA
+        SBUF
+        _CRS
+        _SRS
+        _DIS
+        _DSM
+    _INI
+    NHPG
+    NPME
+    PDRC
+      _HID
+      _UID
+      BUF0
+    WMIO
+      _HID
+      _UID
+      _WDG
+      DUOS
+      [ ]
+      Q2SM
+      CROS
+      OSRF
+      PNDE
+      FSWR
+      LOII
+      BRBM
+      TSBM
+      BIBM
+      WMOS
+      _WED
+      WQOS
+  BN00
+  ILBR
+  [ ]
+  [ ]
+  PARC
+  PBRC
+  PCRC
+  PDRC
+  PERC
+  PFRC
+  PGRC
+  PHRC
+  [ ]
+  [ ]
+  UI3E
+  UI4E
+  LNKA
+    _HID
+    _UID
+    _DIS
+    _PRS
+    _CRS
+    _SRS
+    _STA
+  LNKB
+    _HID
+    _UID
+    _DIS
+    _PRS
+    _CRS
+    _SRS
+    _STA
+  LNKC
+    _HID
+    _UID
+    _DIS
+    _PRS
+    _CRS
+    _SRS
+    _STA
+  LNKD
+    _HID
+    _UID
+    _DIS
+    _PRS
+    _CRS
+    _SRS
+    _STA
+  LNKE
+    _HID
+    _UID
+    _DIS
+    _PRS
+    _CRS
+    _SRS
+    _STA
+  LNKF
+    _HID
+    _UID
+    _DIS
+    _PRS
+    _CRS
+    _SRS
+    _STA
+  LNKG
+    _HID
+    _UID
+    _DIS
+    _PRS
+    _CRS
+    _SRS
+    _STA
+  LNKH
+    _HID
+    _UID
+    _DIS
+    _PRS
+    _CRS
+    _SRS
+    _STA
+  LPEA
+    _ADR
+    _HID
+    _CID
+    _DDN
+    _SUB
+    _UID
+    ADEP
+    _DEP
+    _PR0
+    _STA
+    _DIS
+    RBUF
+    _CRS
+    KEYS
+    [ ]
+    [ ]
+    PSAT
+    PLPE
+      _STA
+      _ON_
+      _OFF
+    ADMA
+      _ADR
+      _HID
+      _CID
+      _DDN
+      _UID
+      _STA
+      _CRS
+    SSP1
+      _ADR
+      _HID
+      _CID
+      _DDN
+      _UID
+      _STA
+      _CRS
+      _DSM
+  TIMC
+    _ADR
+    _HID
+    _CID
+    _DDN
+    _UID
+    _DEP
+    _STA
+    _CRS
+  AMCR
+    _ADR
+    _HID
+    _CID
+    _DDN
+    _UID
+    _DEP
+    _STA
+    _CRS
+  HAD_
+    _ADR
+    _HID
+    _CID
+    _DDN
+    _UID
+    _STA
+    _CRS
+  USBC
+    _STA
+    _ON_
+    _OFF
+  CRTT
+  ACTT
+  SCR0
+  SCR1
+  SCR2
+  SCR3
+  GCR0
+  GCR1
+  GCR2
+  GCR3
+  GCR4
+  PST0
+  PST1
+  PST2
+  PST3
+  PST4
+  LPMV
+  PDBG
+  PDPM
+  PDBP
+  DLPO
+  BRQD
+  PSC1
+  PSC2
+  PSC3
+  PSA1
+  PSA2
+  PSA3
+  _INI
+  CIND
+    _HID
+    _CID
+    _STA
+  GPED
+    _ADR
+    _HID
+    _CID
+    _DDN
+    _UID
+    INST
+    XTMP
+    SCIS
+    [ ]
+    LGBE
+    LHAD
+    LATA
+    LDIO
+    LARD
+    LIO1
+    LCEP
+    LANB
+    LHCI
+    LOTG
+    LECI
+    LHSI
+    _HRV
+    _DSM
+    _CRS
+    _STA
+    _AEI
+    _L02
+  GPO0
+    _ADR
+    _HID
+    _CID
+    _DDN
+    _UID
+    _CRS
+    _STA
+    AVBL
+    _REG
+    GPOP
+    [ ]
+    CCU2
+    CCU3
+    TCON
+    WWD3
+  GPO1
+    _ADR
+    _HID
+    _CID
+    _DDN
+    _UID
+    _CRS
+    AVBL
+    _REG
+    GPOP
+    [ ]
+    BST5
+    TCD3
+    _STA
+  GPO2
+    _ADR
+    _HID
+    _CID
+    _DDN
+    _UID
+    _CRS
+    _STA
+    _AEI
+    BMUX
+    BBBY
+    DDDT
+    _E12
+    BMBQ
+    BBBQ
+    DDBQ
+    BOST
+    BUFC
+    BYAT
+    DATA
+    AVBL
+    _REG
+    GPOP
+    [ ]
+    WFD3
+    MOTG
+    USID
+  PEPD
+    _HID
+    _CID
+    _UID
+    PEPP
+    DEVS
+    DEVX
+    DEX1
+    DEX2
+    CDMP
+    DEVY
+    DEY1
+    DEY2
+    BCCD
+    _STA
+    _DSM
+  SDHA
+    _ADR
+    _HID
+    _CID
+    _DDN
+    _UID
+    _DEP
+    RBF1
+    RBF2
+    _CRS
+    _STA
+    _PS3
+    _PS0
+    KEYS
+    [ ]
+    [ ]
+    PSAT
+    _DIS
+    EMMD
+      _ADR
+      _RMV
+  SDHB
+    _ADR
+    _HID
+    _CID
+    _DDN
+    _UID
+    _HRV
+    _DEP
+    PSTS
+    RBUF
+    _CRS
+    _STA
+    _DIS
+    _PS3
+    _PS0
+    KEYS
+    [ ]
+    [ ]
+    PSAT
+    WLAN
+      _ADR
+      _DEP
+      _STA
+      _RMV
+      _PRW
+      _S4W
+      _S0W
+      _CRS
+      _PS2
+      _PS3
+      _PS0
+    WLA2
+      _ADR
+      _STA
+      _RMV
+      _CRS
+    RTLW
+      _ADR
+      _DEP
+      _HID
+      _CID
+      _STA
+      _RMV
+      _PRW
+      _S4W
+      _S0W
+      _CRS
+      _PS2
+      _PS3
+      _PS0
+  SDHC
+    _ADR
+    _HID
+    _CID
+    _DDN
+    _UID
+    _DEP
+    TDEP
+    RBUF
+    ABUF
+    _CRS
+    _STA
+    _PS3
+    _PS0
+    KEYS
+    [ ]
+    [ ]
+    PSAT
+  SDHD
+    _ADR
+    _HID
+    _CID
+    _DDN
+    _UID
+    _DEP
+    RBUF
+    ABUF
+    _CRS
+    _STA
+    _PS3
+    _PS0
+    KEYS
+    [ ]
+    [ ]
+    PSAT
+  GDM1
+    _HID
+    _DDN
+    _UID
+    RBUF
+    _CRS
+    _STA
+  GDM2
+    _HID
+    _DDN
+    _UID
+    RBUF
+    _CRS
+    _STA
+  PWM1
+    _ADR
+    _HID
+    _CID
+    _DDN
+    _UID
+    RBUF
+    _CRS
+    _STA
+    _PS3
+    _PS0
+    KEYS
+    [ ]
+    [ ]
+    PSAT
+  PWM2
+    _ADR
+    _HID
+    _CID
+    _DDN
+    _UID
+    RBUF
+    _CRS
+    _STA
+    _PS3
+    _PS0
+    KEYS
+    [ ]
+    [ ]
+    PSAT
+  URT1
+    _ADR
+    _HID
+    _CID
+    _DDN
+    _UID
+    _DEP
+    RBUF
+    _HRV
+    _CRS
+    _STA
+    _PS3
+    _PS0
+    KEYS
+    [ ]
+    [ ]
+    PSAT
+    BTH0
+      _HID
+      _STA
+      _CRS
+    BTH1
+      _HID
+      _STA
+      _CRS
+  URT2
+    _ADR
+    _HID
+    _CID
+    _DDN
+    _UID
+    _DEP
+    RBUF
+    _HRV
+    _CRS
+    _STA
+    _PS3
+    _PS0
+    KEYS
+    [ ]
+    [ ]
+    PSAT
+    GPS0
+      _HID
+      _HRV
+      _STA
+      _CRS
+  SPI1
+    _ADR
+    _HID
+    _CID
+    _DEP
+    _DDN
+    RBUF
+    _HRV
+    _CRS
+    _STA
+    _PS3
+    _PS0
+    KEYS
+    [ ]
+    [ ]
+    PSAT
+    FPNT
+      _HID
+      _DDN
+      _CRS
+      _STA
+  NFC2
+    _ADR
+    _HID
+    _CID
+    _DDN
+    _UID
+    _STA
+  I2C1
+    _ADR
+    _HID
+    _CID
+    _DEP
+    _DDN
+    _UID
+    RBUF
+    _HRV
+    _CRS
+    _STA
+    _PS3
+    _PS0
+    KEYS
+    [ ]
+    [ ]
+    PSAT
+    CLK0
+      _STA
+      _ON_
+      _OFF
+    IMP3
+      _ADR
+      _HID
+      _CID
+      _UID
+      _STA
+      _CRS
+    AVBL
+    _REG
+    SMUX
+      _HID
+      _CID
+      _DDN
+      _STA
+      RBUF
+      _CRS
+    MUXW
+    MUXO
+    [ ]
+    MSTA
+    [ ]
+    [ ]
+    MCON
+    [ ]
+    [ ]
+    MCHG
+    [ ]
+    [ ]
+    MCST
+    GPOE
+      _HID
+      _CID
+      _DDN
+      _STA
+      RBUF
+      _CRS
+    IOEX
+    IOXO
+    [ ]
+    [ ]
+    INR1
+    [ ]
+    [ ]
+    OUTR
+    [ ]
+    [ ]
+    CONR
+    SMFG
+      _HID
+      _CID
+      _DDN
+      RBUF
+      _CRS
+      _STA
+    SMCG
+      _HID
+      _CID
+      _DDN
+      RBUF
+      _CRS
+      _STA
+    TBCG
+      _HID
+      _CID
+      _DDN
+      RBUF
+      _CRS
+      _STA
+    MXFG
+    DVFG
+    [ ]
+    [ ]
+    FG05
+    [ ]
+    [ ]
+    FG10
+    [ ]
+    [ ]
+    FG17
+    [ ]
+    [ ]
+    FG18
+    [ ]
+    [ ]
+    FG09
+    [ ]
+    [ ]
+    FG0A
+    [ ]
+    [ ]
+    FG11
+    [ ]
+    FG00
+    [ ]
+    [ ]
+    FG03
+    [ ]
+    [ ]
+    FG1D
+    [ ]
+    [ ]
+    FG2B
+    [ ]
+    [ ]
+    THRM
+    [ ]
+    [ ]
+    SOCR
+    [ ]
+    [ ]
+    MXCU
+    SMBC
+    DVBC
+    [ ]
+    BC00
+    BC01
+    BC02
+    BC03
+    BC04
+    BC05
+    BC06
+    BC07
+    BC08
+    BC09
+    BC0A
+    BC0B
+    BC0C
+    BC0D
+    BC0E
+    BC0F
+    BC10
+    [ ]
+    [ ]
+    BC3D
+    [ ]
+    [ ]
+    BC30
+    [ ]
+    [ ]
+    BC3E
+    [ ]
+    [ ]
+    BC35
+    BQBC
+    DVBQ
+    [ ]
+    BQ00
+    BQ01
+    BQ02
+    BQ03
+    BQ04
+    BQ05
+    BQ06
+    BQ07
+    BQ08
+    BQ09
+    BQ0A
+    BATC
+      _HID
+      _UID
+      FGDV
+      BCCC
+      BCCE
+      BCCL
+      BCLP
+      DSCP
+      DSVO
+      RECT
+      BTPC
+      AVCU
+      ACMD
+      _DEP
+      BUFF
+      BYAT
+      DATA
+      BUF1
+      BSTA
+      BLEN
+      DAT1
+      BUF2
+      BSTS
+      SLEN
+      WRD1
+      INBU
+      INST
+      INLN
+      INT0
+      INT1
+      INT2
+      INT3
+      INT4
+      INT5
+      CLIM
+      BIXP
+      BSTP
+      _BIX
+      _BST
+      INTC
+      INTF
+      _BTP
+      _BTM
+      _BCT
+      _DSM
+      _STA
+      _PCL
+      PSOC
+      PMAX
+      VMIN
+      APWR
+      NPWR
+      PSRC
+      CTYP
+      ARTG
+  I2C2
+    _ADR
+    _HID
+    _CID
+    _DEP
+    _DDN
+    _UID
+    RBUF
+    _HRV
+    _CRS
+    _STA
+    _PS3
+    _PS0
+    KEYS
+    [ ]
+    [ ]
+    PSAT
+    CLK0
+      _STA
+      _ON_
+      _OFF
+    CLK1
+      _STA
+      _ON_
+      _OFF
+    RTEK
+      _ADR
+      _HID
+      _CID
+      _DDN
+      _UID
+      CHAN
+      _CRS
+      _STA
+      _PS3
+      _PS0
+      _DIS
+      _DSM
+    TTLV
+      _ADR
+      _HID
+      _CID
+      _DDN
+      _UID
+      OBJ1
+      _CRS
+      _STA
+      _DIS
+    CAM2
+      _ADR
+      _HID
+      _CID
+      _SUB
+      _DDN
+      _UID
+      _DEP
+      _PR0
+      PLDB
+      _PLD
+      _STA
+      _CRS
+      _DSM
+    CAM4
+      _ADR
+      _HID
+      _CID
+      _SUB
+      _DDN
+      _UID
+      _DEP
+      _PR0
+      PLDB
+      _PLD
+      _STA
+      _CRS
+      _DSM
+    CAMA
+      _ADR
+      _HID
+      _CID
+      _SUB
+      _DDN
+      _UID
+      _DEP
+      _PR0
+      PLDB
+      _PLD
+      _STA
+      _CRS
+      _DSM
+    TCS0
+      _ADR
+      _HID
+      _CID
+      _S0W
+      _DEP
+      _PS3
+      _PS0
+      _CRS
+      _STA
+    CAM9
+      _ADR
+      _HID
+      _CID
+      _SUB
+      _DDN
+      _UID
+      _DEP
+      _PR0
+      PLDB
+      _PLD
+      _STA
+      _CRS
+      _DSM
+  I2C3
+    _ADR
+    _HID
+    _CID
+    _DDN
+    _UID
+    _DEP
+    RBUF
+    _HRV
+    _CRS
+    _STA
+    _PS3
+    _PS0
+    KEYS
+    [ ]
+    [ ]
+    PSAT
+    SALS
+      _ADR
+      _HID
+      _CID
+      _UID
+      _STA
+      _CRS
+    FUSI
+      _ADR
+      _HID
+      _CID
+      _UID
+      _STA
+      _CRS
+    SPBA
+      _ADR
+      _HID
+      _CID
+      _UID
+      _STA
+      _CRS
+    SPBM
+      _ADR
+      _HID
+      _CID
+      _UID
+      _STA
+      _CRS
+    SPBG
+      _ADR
+      _HID
+      _CID
+      _UID
+      _STA
+      _CRS
+    SAR1
+      _ADR
+      _HID
+      _CID
+      _UID
+      _STA
+      _CRS
+    ACC_
+      _ADR
+      _HID
+      _CID
+      _UID
+      _CRS
+      _DSM
+  I2C4
+    _ADR
+    _HID
+    _CID
+    _DDN
+    _UID
+    _DEP
+    RBUF
+    _HRV
+    _CRS
+    _STA
+    _PS3
+    _PS0
+    KEYS
+    [ ]
+    [ ]
+    PSAT
+    TCS2
+      _ADR
+      _HID
+      _CID
+      _S0W
+      _DEP
+      _PS3
+      _PS0
+      _CRS
+      _STA
+  I2C5
+    _ADR
+    _HID
+    _CID
+    _DDN
+    _UID
+    _SEM
+    _DEP
+    RBUF
+    _HRV
+    _CRS
+    _STA
+    _PS3
+    _PS0
+    KEYS
+    [ ]
+    [ ]
+    PSAT
+    XPMC
+    XSCG
+    [ ]
+    XP00
+    XP01
+    [ ]
+    [ ]
+    XPB9
+    [ ]
+    [ ]
+    XP2C
+    XP2D
+    XP2E
+    XP2F
+    XP30
+    XP31
+    XP32
+    [ ]
+    [ ]
+    XPCG
+    PMI1
+      _ADR
+      _HID
+      _CID
+      _DDN
+      _HRV
+      _UID
+      _DEP
+      _CRS
+      _STA
+      PMOP
+      [ ]
+      ALD1
+      ALD2
+      ALD3
+      DLD1
+      DLD2
+      DLD3
+      DLD4
+      ELD1
+      ELD2
+      ELD3
+      FLD1
+      FLD2
+      FLD3
+      BUC1
+      BUC2
+      BUC3
+      BUC4
+      BUC5
+      BUC6
+      GPI1
+      DPTF
+      [ ]
+      TMP0
+      AX00
+      AX01
+      TMP1
+      AX10
+      AX11
+      TMP2
+      AX20
+      AX21
+      TMP3
+      AX30
+      AX31
+      TMP4
+      AX40
+      AX41
+      TMP5
+      AX50
+      AX51
+      PEN0
+      PEN1
+      PEN2
+      PEN3
+      PEN4
+      PEN5
+      LPAT
+      GPOP
+      [ ]
+      GMP0
+      GX00
+      GX01
+      GMP1
+      GX10
+      GX11
+      GMP2
+      GX20
+      GX21
+      GMP3
+      GX30
+      GX31
+      GMP4
+      GX40
+      GX41
+      GMP5
+      GX50
+      GX51
+      GEN0
+      GEN1
+      GEN2
+      GEN3
+      GEN4
+      GEN5
+      G28X
+      GD3X
+      G18X
+      GSDX
+      AVBL
+      AVBD
+      AVBG
+      _REG
+    PMI2
+      _ADR
+      _HID
+      _CID
+      _DDN
+      _HRV
+      _UID
+      _DEP
+      _CRS
+      _STA
+      PMOP
+      [ ]
+      LDO1
+      LDO2
+      LDO3
+      LDO5
+      LDO6
+      LDO7
+      LDO8
+      LDO9
+      LD10
+      LD11
+      LD12
+      LD13
+      LD14
+      DPTF
+      [ ]
+      TMP0
+      AX00
+      AX01
+      TMP1
+      AX10
+      AX11
+      TMP2
+      AX20
+      AX21
+      TMP3
+      AX30
+      AX31
+      TMP4
+      AX40
+      AX41
+      TMP5
+      AX50
+      AX51
+      PEN0
+      PEN1
+      PEN2
+      PEN3
+      PEN4
+      PEN5
+      LPAT
+      GPOP
+      [ ]
+      GMP0
+      GX00
+      GX01
+      GMP1
+      GX10
+      GX11
+      GMP2
+      GX20
+      GX21
+      GMP3
+      GX30
+      GX31
+      GMP4
+      GX40
+      GX41
+      GMP5
+      GX50
+      GX51
+      GEN0
+      GEN1
+      GEN2
+      GEN3
+      GEN4
+      GEN5
+      GSDX
+      G28X
+      G18X
+      G18U
+      AVBL
+      AVBD
+      AVBG
+      _REG
+    PMIF
+      _ADR
+      _HID
+      _CID
+      _DDN
+      _HRV
+      _UID
+      _DEP
+      _CRS
+      _STA
+    PMIC
+      _ADR
+      _HID
+      _CID
+      _DDN
+      _HRV
+      _UID
+      _DEP
+      _CRS
+      _STA
+      DPTF
+      [ ]
+      TMP0
+      AX00
+      AX01
+      TMP1
+      AX10
+      AX11
+      TMP2
+      AX20
+      AX21
+      TMP3
+      AX30
+      AX31
+      TMP4
+      AX40
+      AX41
+      TMP5
+      AX50
+      AX51
+      PEN0
+      PEN1
+      PEN2
+      PEN3
+      PEN4
+      PEN5
+      PMOP
+      [ ]
+      VSYS
+      SYSX
+      SYSU
+      SYSS
+      V50S
+      HOST
+      VBUS
+      HDMI
+      S285
+      X285
+      V33A
+      V33S
+      V33U
+      V33I
+      V18A
+      REFQ
+      V12A
+      V18S
+      V18X
+      V18U
+      V12X
+      V12S
+      V10A
+      V10S
+      V10X
+      V105
+      GPOP
+      [ ]
+      GMP0
+      GX00
+      GX01
+      GMP1
+      GX10
+      GX11
+      GMP2
+      GX20
+      GX21
+      GMP3
+      GX30
+      GX31
+      GMP4
+      GX40
+      GX41
+      GMP5
+      GX50
+      GX51
+      GEN0
+      GEN1
+      GEN2
+      GEN3
+      GEN4
+      GEN5
+      GSYS
+      GYSX
+      GYSU
+      GYSS
+      G50S
+      GOST
+      GBUS
+      GDMI
+      G28S
+      G28X
+      G33A
+      G33S
+      G33U
+      G33I
+      G18A
+      GEFQ
+      G12A
+      G18S
+      G18X
+      G18U
+      G12X
+      G12S
+      G10A
+      G10S
+      G10X
+      G105
+      FCOT
+      AVBL
+      AVBD
+      AVBG
+      _REG
+      LPAT
+    BMDR
+      _HID
+      _CID
+      _DDN
+      _DEP
+      RBUF
+      _CRS
+      _STA
+      BMOP
+      [ ]
+      SOC_
+      FCCP
+      CHST
+      RMCP
+      VOLT
+      BATP
+      SRP0
+      STYP
+      CHGC
+      STPC
+      GADC
+      TTEM
+      TTCH
+      CYCL
+      BTP_
+      DPCU
+      DSCP
+      TVOL
+      ILIM
+      AVBL
+      _REG
+      SBTP
+      PTYP
+    TIDR
+      _HID
+      _CID
+      _DDN
+      _DEP
+      RBUF
+      _CRS
+      _STA
+      BMOP
+      [ ]
+      SOC_
+      FCCP
+      CHST
+      RMCP
+      VOLT
+      BATP
+      SRP0
+      STYP
+      CHGC
+      STPC
+      GADC
+      TTEM
+      TTCH
+      CYCL
+      BTP_
+      DPCU
+      DSCP
+      AVBL
+      _REG
+      SBTP
+      PTYP
+    BMBT
+      _HID
+      _UID
+      BCCE
+      OTGS
+      CHPR
+      FGDV
+      BCCC
+      BCIL
+      BCVF
+      BCFV
+      BCCH
+      BCST
+      BCPE
+      BCTV
+      BCCL
+      BCLP
+      DSVO
+      DSCP
+      MANX
+      MARR
+      MARU
+      MARY
+      CHTY
+      BTPC
+      AVCU
+      _DEP
+      BUCC
+      MOST
+      MODT
+      BUYC
+      MIST
+      MIDT
+      BMCH
+      MHST
+      MHDT
+      BUFF
+      BYAT
+      DATA
+      BUF1
+      BSTA
+      BLEN
+      DAT1
+      BUF2
+      BSTS
+      SLEN
+      WRD1
+      BIXP
+      BSTP
+      _BIX
+      _BST
+      _BTP
+      _BTM
+      _BCT
+      _DSM
+      _STA
+      _PCL
+      PSOC
+      PMAX
+      VMIN
+      APWR
+      NPWR
+      PSRC
+      CTYP
+      ARTG
+    TIBT
+      _HID
+      _UID
+      BCCE
+      OTGS
+      CHPR
+      FGDV
+      BCCC
+      BCIL
+      BCVF
+      BCFV
+      BCCH
+      BCST
+      BCPE
+      BCCL
+      BCLP
+      DSCP
+      DSVO
+      BTPC
+      AVCU
+      _DEP
+      BUFF
+      BYAT
+      DATA
+      BUF1
+      BSTA
+      BLEN
+      DAT1
+      BUF2
+      BSTS
+      SLEN
+      WRD1
+      BIXP
+      BSTP
+      _BIX
+      _BST
+      _BTP
+      _BTM
+      _BCT
+      _DSM
+      _STA
+      _PCL
+      PSOC
+      PMAX
+      VMIN
+      APWR
+      NPWR
+      PSRC
+      CTYP
+      ARTG
+  P28X
+    _DEP
+    _STA
+    _ON_
+    _OFF
+  P18X
+    _DEP
+    _STA
+    _ON_
+    _OFF
+  P28P
+    _DEP
+    _STA
+    _ON_
+    _OFF
+  P18P
+    _DEP
+    _STA
+    _ON_
+    _OFF
+  P28T
+    _DEP
+    _STA
+    _ON_
+    _OFF
+  P18T
+    _DEP
+    _STA
+    _ON_
+    _OFF
+  P1XT
+    _DEP
+    _STA
+    _ON_
+    _OFF
+  TBAD
+    _HID
+    _CID
+    _DDN
+    _DEP
+    _CRS
+    _STA
+    _DSM
+  MBID
+    _HID
+    _CID
+    _HRV
+    _UID
+    _CRS
+    REGS
+    [ ]
+    PORT
+    REG_
+    DATA
+    MASK
+    BE__
+    OP__
+    AVBL
+    _REG
+    READ
+    WRIT
+    MODI
+  PAGD
+    _HID
+    _CID
+    IDCN
+    PURP
+    _PUR
+    _OST
+  ADP1
+    _HID
+    _PSR
+    _PCL
+  TCPU
+    _HID
+    _UID
+    CTYP
+    _DEP
+    CINT
+    LSTM
+    MED4
+    MED0
+    AEXL
+    PPCC
+    CLPO
+    _INI
+    _STA
+    _CRS
+    MBIW
+    MBIR
+    _PPC
+    SPPC
+    PURE
+    SPUR
+    _DTI
+    _NTT
+    _PSS
+    _TSS
+    _TPC
+    _PTC
+    _TSD
+    _TDL
+    _PDL
+    _PSV
+    _SCP
+    GTSH
+    SDBG
+  DPTF
+    _HID
+    _DEP
+    DPSP
+    DCSP
+    DCPP
+    DBPP
+    TMPP
+    IDSP
+    _STA
+    PDRI
+    PDRA
+    PDRT
+    ETRM
+    TRTI
+    TRTX
+    TRTT
+    _TRT
+    TRTR
+    _OSC
+    KTOC
+    CTOK
+    SDBG
+    LPSP
+    CLPM
+  TPWR
+    _HID
+    _UID
+    PTYP
+    PROP
+    _STR
+    _DEP
+    _STA
+    _BST
+    PSOC
+    PMAX
+    PSRC
+    ARTG
+    CTYP
+    SDBG
+  TPW1
+    _HID
+    _UID
+    PTYP
+    PROP
+    _STR
+    _DEP
+    _STA
+    _BST
+    PSOC
+    PMAX
+    PSRC
+    ARTG
+    CTYP
+    SDBG
+  TPW2
+    _HID
+    _UID
+    PTYP
+    PROP
+    _STR
+    _DEP
+    _STA
+    _BST
+    PSOC
+    PMAX
+    PSRC
+    ARTG
+    CTYP
+    SDBG
+  STR0
+    _HID
+    _UID
+    PTYP
+    _STR
+    CTYP
+    LTM0
+    _DEP
+    _STA
+    _DTI
+    _NTT
+    _TMP
+    GTSH
+    _SCP
+    SDBG
+  STR1
+    _HID
+    _UID
+    PTYP
+    _STR
+    CTYP
+    LTM1
+    _DEP
+    _STA
+    _DTI
+    _NTT
+    _CRS
+    _INI
+    _TMP
+    PATC
+    PAT0
+    PAT1
+    GTSH
+    _CRT
+    _HOT
+    _PSV
+    _SCP
+    SDBG
+  STI1
+    _HID
+    _UID
+    PTYP
+    _STR
+    CTYP
+    LTM1
+    _DEP
+    _STA
+    _TSP
+    PMTY
+    _DTI
+    _NTT
+    _INI
+    _TMP
+    PATC
+    PAT0
+    PAT1
+    GTSH
+    _CRT
+    _HOT
+    _PSV
+    _SCP
+    SDBG
+  SXP1
+    _HID
+    _UID
+    _STR
+    PTYP
+    CTYP
+    LTM2
+    _DEP
+    _STA
+    _TSP
+    PMTY
+    _DTI
+    _NTT
+    _INI
+    _TMP
+    PATC
+    PAT0
+    PAT1
+    GTSH
+    _CRT
+    _HOT
+    _PSV
+    _SCP
+    SDBG
+  STR2
+    _HID
+    _UID
+    _STR
+    PTYP
+    CTYP
+    LTM2
+    _DEP
+    _STA
+    _DTI
+    _NTT
+    _CRS
+    _INI
+    _TMP
+    PATC
+    PAT0
+    PAT1
+    GTSH
+    _CRT
+    _HOT
+    _PSV
+    _SCP
+    SDBG
+  STR3
+    _HID
+    _UID
+    _STR
+    PTYP
+    CTYP
+    LTM3
+    _DEP
+    _STA
+    _DTI
+    _NTT
+    _INI
+    BUFF
+    STAT
+    LEN_
+    TMP0
+    AX00
+    AX01
+    AX10
+    AX11
+    _TMP
+    PATC
+    PAT0
+    PAT1
+    GTSH
+    _CRT
+    _HOT
+    _PSV
+    _SCP
+    SDBG
+  SAMB
+    _HID
+    _UID
+    PTYP
+    _STR
+    CPRM
+    _DEP
+    _STA
+    _CRS
+    _INI
+    _ATI
+    AMBT
+    TMPC
+    TMPH
+    PATC
+    PAT0
+    PAT1
+    SDBG
+  TDSP
+    _HID
+    _STA
+    DDDL
+    DDPC
+    _BCL
+    _BCM
+    _BQC
+    _DCS
+    SDBG
+  TCHG
+    _HID
+    _UID
+    PTYP
+    _STR
+    _DEP
+    _STA
+    PPSS
+    PPPC
+    SPPC
+    SDBG
+  TCH1
+    _HID
+    _UID
+    PTYP
+    _STR
+    _DEP
+    _STA
+    PPSS
+    PPPC
+    SPPC
+    SDBG
+  TCH2
+    _HID
+    _UID
+    PTYP
+    _STR
+    _DEP
+    _STA
+    PPSS
+    PPPC
+    SPPC
+    SDBG
+  TSOC
+    _HID
+    _UID
+    CTYP
+    CINT
+    LSTM
+    PATC
+    _STA
+    _CRS
+    _CRT
+    _HOT
+    _PSV
+    _SCP
+  TPM_
+    _HID
+    _STR
+    TPMF
+    _CRS
+    TICR
+    [ ]
+    [ ]
+    STAT
+    SMIP
+    [ ]
+    IOB2
+    TNVS
+    [ ]
+    PPIN
+    PPIP
+    PPRP
+    PPRQ
+    LPPR
+    FRET
+    MCIN
+    MCIP
+    MORD
+    MRET
+    PTS_
+    _STA
+    HINF
+    TPM2
+    TPM3
+    TPPI
+    TMCI
+    TSMI
+    _DSM
+_SI_
+_TZ_
+  TZ00
+    _DEP
+    _TZP
+    _TMP
+_REV
+_OS_
+_OSI
+_GL_
+ADBG
+SP3O
+IO4B
+IO4L
+SP1O
+PMBS
+SMIP
+GPBS
+APCB
+APCL
+PFDR
+PMCB
+PCLK
+PUNB
+IBAS
+SRCB
+SRCL
+HPTB
+MCHB
+MCHL
+EGPB
+EGPL
+DMIB
+DMIL
+IFPB
+IFPL
+PEBS
+PELN
+FMBL
+FDTP
+GCDD
+DSTA
+DSLO
+DSLC
+PITS
+SBCS
+SALS
+LSSS
+PSSS
+SOOT
+ESCS
+SDGV
+ACPH
+ASSB
+AOTB
+AAXB
+PEHP
+SHPC
+PEPM
+PEER
+PECS
+FTBL
+GNVS
+[ ]
+OSYS
+SMIF
+PRM0
+PRM1
+SCIF
+PRM2
+PRM3
+LCKF
+PRM4
+PRM5
+P80D
+LIDS
+PWRS
+DBGS
+THOF
+[ ]
+PSVT
+TC1V
+TC2V
+TSPV
+CRTT
+DTSE
+DTS1
+DTS2
+DTSF
+BNUM
+B0SC
+B1SC
+B2SC
+B0SS
+B1SS
+B2SS
+[ ]
+APIC
+MPEN
+PCP0
+PCP1
+PPCM
+PPMF
+[ ]
+NATP
+CMAP
+CMBP
+LPTP
+FDCP
+CMCP
+CIRP
+W381
+NPCE
+[ ]
+IGDS
+TLST
+CADL
+PADL
+CSTE
+NSTE
+SSTE
+NDID
+DID1
+DID2
+DID3
+DID4
+DID5
+KSV0
+KSV1
+[ ]
+BLCS
+BRTL
+ALSE
+ALAF
+LLOW
+LHIH
+[ ]
+EMAE
+EMAP
+EMAL
+[ ]
+MEFE
+DSTS
+[ ]
+TPMP
+TPME
+MORD
+TCGP
+PPRP
+PPRQ
+LPPR
+GTF0
+GTF2
+IDEM
+GTF1
+[ ]
+ASLB
+IBTT
+IPAT
+ITVF
+ITVM
+IPSC
+IBLC
+IBIA
+ISSC
+I409
+I509
+I609
+I709
+IDMM
+IDMS
+IF1E
+HVCO
+NXD1
+NXD2
+NXD3
+NXD4
+NXD5
+NXD6
+NXD7
+NXD8
+GSMI
+PAVP
+[ ]
+OSCC
+NEXP
+[ ]
+DSEN
+ECON
+GPIC
+CTYP
+L01C
+VFN0
+VFN1
+[ ]
+NVGA
+NVHA
+AMDA
+DID6
+DID7
+DID8
+[ ]
+USEL
+PU1E
+PU2E
+LPE0
+LPE1
+LPE2
+ACST
+BTST
+PFLV
+[ ]
+AOAC
+XHCI
+PMEN
+LPEE
+ISPA
+ISPD
+PCIB
+PCIT
+D10A
+D10L
+D11A
+D11L
+P10A
+P10L
+P11A
+P11L
+P20A
+P20L
+P21A
+P21L
+U10A
+U10L
+U11A
+U11L
+U20A
+U20L
+U21A
+U21L
+SP0A
+SP0L
+SP1A
+SP1L
+D20A
+D20L
+D21A
+D21L
+I10A
+I10L
+I11A
+I11L
+I20A
+I20L
+I21A
+I21L
+I30A
+I30L
+I31A
+I31L
+I40A
+I40L
+I41A
+I41L
+I50A
+I50L
+I51A
+I51L
+I60A
+I60L
+I61A
+I61L
+I70A
+I70L
+I71A
+I71L
+EM0A
+EM0L
+EM1A
+EM1L
+SI0A
+SI0L
+SI1A
+SI1L
+SD0A
+SD0L
+SD1A
+SD1L
+MH0A
+MH0L
+MH1A
+MH1L
+OSSL
+[ ]
+DPTE
+THM0
+THM1
+THM2
+THM3
+THM4
+CHGR
+DDSP
+DSOC
+DPSR
+DPCT
+DPPT
+DGC0
+DGP0
+DGC1
+DGP1
+DGC2
+DGP2
+DGC3
+DGP3
+DGC4
+DGP4
+DLPM
+DSC0
+DSC1
+DSC2
+DSC3
+DSC4
+DDBG
+LPOE
+LPPS
+LPST
+LPPC
+LPPF
+DPME
+BCSL
+NFCS
+[ ]
+TPMA
+TPML
+ITSA
+S0IX
+SDMD
+EMVR
+BMBD
+USBM
+BDID
+FBID
+OTGM
+STEP
+SOCS
+AMTE
+SCPE
+SARE
+PSSD
+EDPV
+DIDX
+PAVB
+PAVL
+PMID
+PMIS
+ADOS
+MIPS
+WIFS
+BTSL
+GPSS
+RCAS
+FCAS
+CHRS
+FUES
+ALSS
+GYRS
+ACCS
+SARS
+VTSP
+IUCE
+PMIO
+[ ]
+[ ]
+PWBS
+[ ]
+[ ]
+PMEB
+[ ]
+[ ]
+GPEC
+[ ]
+[ ]
+[ ]
+PSCI
+SCIS
+PMCR
+[ ]
+L10D
+L11D
+L12D
+L13D
+L14D
+L15D
+[ ]
+SD1D
+SD2D
+SD3D
+HSID
+[ ]
+LPED
+OTGD
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+RP1D
+RP2D
+RP3D
+RP4D
+L20D
+L21D
+L22D
+L23D
+L24D
+L25D
+L26D
+L27D
+CLKC
+[ ]
+CKC0
+CKF0
+[ ]
+CKC1
+CKF1
+[ ]
+CKC2
+CKF2
+[ ]
+CKC3
+CKF3
+[ ]
+CKC4
+CKF4
+[ ]
+CKC5
+CKF5
+[ ]
+MUTX
+PRT0
+[ ]
+P80H
+P8XH
+SPRT
+[ ]
+SSMP
+_PIC
+SWC0
+[ ]
+G1S_
+[ ]
+G1E_
+[ ]
+G1S2
+G1S3
+SWC1
+[ ]
+[ ]
+G0S_
+[ ]
+G0EN
+_PTS
+_WAK
+PNOT
+PICM
+MDM_
+  _HID
+  _CID
+  CPU_
+  MDMN
+  _STA
+  _CRS
+BUFN
+MBUF
+MDBG
+[ ]
+MDG0
+DB2H
+DW2H
+DD2H
+MBGS
+SHOW
+LINE
+MDGC
+UP_L
+MOVE
+NTOC
+BRTN
+HEAR
+_S5_
+BDLI
+BDHI
+SSDT
+CFGD
+PDC0
+PDC1
+PDC2
+PDC3
+SDTL
+OFNA
+SWOR
+OFND
+OFNH
