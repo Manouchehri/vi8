@@ -1,9 +1,5 @@
 # Linux on the Chuwi Vi8
 
-Current Status: Attempting to boot Ubuntu off a Live USB.
+Current Status: Native support by [Debian's mult-arch testing installer](http://cdimage.debian.org/cdimage/weekly-builds/multi-arch/iso-cd/debian-testing-amd64-i386-netinst.iso).
 
-Goal: Arch Linux on the internal flash.
-
-Useful links:
-
-- https://github.com/lopaka/instructions/blob/master/ubuntu-14.10-install-asus-x205ta.md
+Check issue tracker for details on various other problems that have yet to be solved (touch, WiFi, etc).
