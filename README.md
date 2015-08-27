@@ -1,5 +1,7 @@
 # Chuwi Vi8
 
+[![Join the chat at https://gitter.im/Manouchehri/vi8](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Manouchehri/vi8?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 The goal of this project is basically to improve support at all levels, Linux or Windows related. The primary focus is to keep the amount of noise to a minimum.
 
 ## Finding files
