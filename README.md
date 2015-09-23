@@ -38,3 +38,11 @@ Known Operating Systems to work off of:
 - No webcams
 
 Check issue tracker for details on various other problems that have yet to be solved (touch, WiFi, etc).
+
+### Ubuntu
+
+See seperate [document](https://github.com/Manouchehri/vi8/blob/master/Ubuntu_instructions.md) with instructions
+
+#### Missing Drivers
+
+Same as Debian
