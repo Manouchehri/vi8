@@ -91,5 +91,14 @@ sudo update-grub
 ```
 and supply your password if needed. You should now be done and have an Ubuntu that is able to boot it self.
 
+##WiFi
+I will not go into detail right now, but https://github.com/hadess/rtl8723bs driver works. You can download the repo and
+
+```
+make
+sudo make install
+sudo reboot
+```
+
 ##Further research
 I intend to follow up and more devices work. Adding them to this guide.
