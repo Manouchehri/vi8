@@ -25,6 +25,10 @@ Known Operating Systems to work off of:
 
 ### Debian 
 
+#### Working
+
+- WiFi
+
 #### Issues(s)
 - Confirmed to work with [multi-arch testing installer](http://cdimage.debian.org/cdimage/weekly-builds/multi-arch/iso-cd/debian-testing-amd64-i386-netinst.iso)
 - Recent multi-arch should be merged into Jessie by now (installer only, not LiveUSB).
@@ -33,16 +37,7 @@ Known Operating Systems to work off of:
 
 - No touchscreen
 - No Bluetooth
-- No WiFi
 - No audio
 - No webcams
 
 Check issue tracker for details on various other problems that have yet to be solved (touch, WiFi, etc).
-
-### Ubuntu
-
-See seperate [document](https://github.com/Manouchehri/vi8/blob/master/Ubuntu_instructions.md) with instructions
-
-#### Missing Drivers
-
-Same as Debian
