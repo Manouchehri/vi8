@@ -75,7 +75,7 @@ You will see the contents of the text file called fstab the interesting informat
 The next command to write is called `linux` you might remember we had to edit this command while booting live the first time. Using the information we previously gathered we would write the following 3 commands, but change it if you found different information
 ```
 linux (hd1,gpt2)/vmlinuz nomodeset root=/dev/mmcblk0p2
-init (hd1,gpt2)/initrd.img
+initrd (hd1,gpt2)/initrd.img
 boot
 ```
 
