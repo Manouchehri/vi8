@@ -2,40 +2,35 @@
 
 [![Join the chat at https://gitter.im/Manouchehri/vi8](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Manouchehri/vi8?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-The goal of this project is basically to improve support at all levels, Linux or Windows related. The primary focus is to keep the amount of noise to a minimum.
-
 ## TODO
 
-- Getting more devices to work
-- Making it easier for end users to install and use
+- Getting more peripherals to work
+- Making it easier for end users to install and use (e.g., prepare .deb packages)
 
-## Current Status: Native support by 
+## Current Status: Supported by 
 
-Known Operating Systems to work off of:
-
-### Windows 8.1 (native)
+### Windows 8.1 (native) / Windows 10 
+ - Both clean installs and upgrades work; use existing Windows 8.1 drivers for a clean install
 
 #### Issue(s)
-- Sketchy driver signing (or lack of)
+- Must use 32-bit builds despsite having a 64-bit CPU (see [issue #4](https://github.com/Manouchehri/vi8/issues/4))
+- Lack of driver signing for some peripherals
 
-### Windows 10 (clean install or upgrade; use existing Windows 8.1 drivers for a clean install)
+### Debian / Ubuntu
 
-#### Issues(s)
-- Must use 32-bit builds despsite having a 64-bit CPU (will not fix, ever)
-- Sketchy driver signing (or lack of)
-
-### Debian 
+- Confirmed to work with [multi-arch testing installer](http://cdimage.debian.org/cdimage/weekly-builds/multi-arch/iso-cd/debian-testing-amd64-i386-netinst.iso)
+- Recent multi-arch should be merged into Debian Jessie by now (installer only, not LiveUSB).
+- [Instructions for Ubuntu install and LiveUSB.](https://github.com/Manouchehri/vi8/blob/master/Ubuntu_instructions.md)
 
 #### Working
 
-- WiFi
+- WiFi (see [issue #2](https://github.com/Manouchehri/vi8/issues/2))
 
-#### Issues(s)
-- Confirmed to work with [multi-arch testing installer](http://cdimage.debian.org/cdimage/weekly-builds/multi-arch/iso-cd/debian-testing-amd64-i386-netinst.iso)
-- Recent multi-arch should be merged into Jessie by now (installer only, not LiveUSB).
+#### Issue(s)
+
 - No 3D acceleration
 
-##### Missing Drivers
+##### Missing Driver(s)
 
 - No touchscreen
 - No Bluetooth
@@ -43,11 +38,3 @@ Known Operating Systems to work off of:
 - No webcams
 
 Check issue tracker for details on various other problems that have yet to be solved (touch, WiFi, etc).
-
-### Ubuntu
-
-[Instructions](https://github.com/Manouchehri/vi8/blob/master/Ubuntu_instructions.md) Both LiveUSB and install works.
-
-#### Issues(s)
-
-Same as debian
