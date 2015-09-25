@@ -46,7 +46,7 @@ Check issue tracker for details on various other problems that have yet to be so
 
 ### Ubuntu
 
-[Instructions](https://github.com/Manouchehri/vi8/blob/master/Ubuntu_instructions.md)
+[Instructions](https://github.com/Manouchehri/vi8/blob/master/Ubuntu_instructions.md) Both LiveUSB and install works.
 
 #### Issues(s)
 
