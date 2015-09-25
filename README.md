@@ -4,9 +4,10 @@
 
 The goal of this project is basically to improve support at all levels, Linux or Windows related. The primary focus is to keep the amount of noise to a minimum.
 
-## Finding files
+## TODO
 
-TODO (currently waiting on a few emails)
+- Getting more devices to work
+- Making it easier for end users to install and use
 
 ## Current Status: Native support by 
 
@@ -32,6 +33,7 @@ Known Operating Systems to work off of:
 #### Issues(s)
 - Confirmed to work with [multi-arch testing installer](http://cdimage.debian.org/cdimage/weekly-builds/multi-arch/iso-cd/debian-testing-amd64-i386-netinst.iso)
 - Recent multi-arch should be merged into Jessie by now (installer only, not LiveUSB).
+- No 3D acceleration
 
 ##### Missing Drivers
 
@@ -41,3 +43,11 @@ Known Operating Systems to work off of:
 - No webcams
 
 Check issue tracker for details on various other problems that have yet to be solved (touch, WiFi, etc).
+
+### Ubuntu
+
+[Instructions](https://github.com/Manouchehri/vi8/blob/master/Ubuntu_instructions.md)
+
+#### Issues(s)
+
+Same as debian
