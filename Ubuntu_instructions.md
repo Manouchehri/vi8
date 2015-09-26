@@ -41,10 +41,12 @@ If you use OS X I suggest googling how because its a bit more work than the othe
 
 After that you need to copy over a 32Bit GRUB over to the memory stick. [Download it from here](https://github.com/Manouchehri/vi8/blob/master/bootia32.efi?raw=true) and put it into EFI/BOOT/
 
+The last step is to change some grub settings, so [download this file](https://raw.githubusercontent.com/Manouchehri/vi8/master/Ubuntu_support_files/grub.cfg?raw=true) and overwrite /boot/grub/grub.cfg
+
 ###Booting into live
 Use the USB OTG hub and connect at least a keyboard and the USB stick you just prepared. I Highly suggest also connecting a mouse. Shut down the tablet if its powered on and start it again by holding down the lock button for a while and press the Esc key on the keyboard to enter the UEFI menu. Use the mouse, touchscreen or keyboard to select the Boot Manager, then use the keyboard to select your USB stick. If you can’t see the USB stick, the 32Bit GRUB binary is either damaged or not correctly placed on the USB stick.
 
-You should now see the GRUB2 boot menu. You want to find the line "Try Ubuntu without installing”, it should be the first line, select it but don’t hit enter. Hit the “E” key on the keyboard to edit the command this line will run. We need to disable DRM/KMS so we will see anything when Linux has started. So use the arrow key to find the line that starts with `linux` the first parameter after this command has to be `/casper/vmlinuz.efi` but we need to add a new parameter, I suggest putting it after that first parameter. The parameter you need to add is `nomodeset` Now you can hit F10 or Ctrl+X on the keyboard to boot. 
+Boot by selecting Try Ubuntu
 
 ###Installation
 After the desktop has started I suggest connecting the mouse if you have not already, I presume its possible to do this without the mouse but I won’t go into how to do that. Open the application called Install Ubuntu 15.10 and follow the installation wizard. This guide will also only go into how to make it work without dual boot so I suggest formatting the whole internal flash, this should be one of the preconfigured options in the wizard. For me the installation crashed when the installer tried to install GRUB, if yours does not this is fine as well but the 64Bit GRUB will not work on this tablet anyway even though we have a 64Bit processor and we are now running a 64Bit Linux on it. Nonetheless we have to shutdown the tablet, Ubuntu will not boot on its own right now so continue reading.
@@ -72,9 +74,9 @@ cat (hd1,gpt2)/etc/fstab
 ```
 You will see the contents of the text file called fstab the interesting information is in a line that is commented out (starting with #) the line you want to look for says `/ was mounted on` and then it says the device name of the partition that linux would call this. for me that was `/dev/mmcblk0p2` we need this information in the next command.
 
-The next command to write is called `linux` you might remember we had to edit this command while booting live the first time. Using the information we previously gathered we would write the following 3 commands, but change it if you found different information
+The next command to write a few commands to actually boot. For the `linux` command the first parameter has to locate the vmlinuz and needs the hardisk and parition information that we found earleir, the `video` parameter to get 3D acceleration working, and a `root` with the device information we gathered earlier. the `initrd` command also needs the parition information to find the initrd.img and lastly the `boot` command to boot so do the following commands or change to fit your hardware.
 ```
-linux (hd1,gpt2)/vmlinuz nomodeset root=/dev/mmcblk0p2
+linux (hd1,gpt2)/vmlinuz video=1280x800@60 root=/dev/mmcblk0p2
 initrd (hd1,gpt2)/initrd.img
 boot
 ```
@@ -85,7 +87,7 @@ sudo nano /etc/default/grub
 ```
 enter your password and hit enter
 
-Find the line starting with `GRUB_CMDLINE_LINUX_DEFAULT` and add the parameter nomodeset into the quotation marks. My line then looks like this `GRUB_CMDLINE_LINUX_DEFAULT=“nomodeset quiet splash”` then save by pressing “CTRL+X” then press “Y” then press “Enter” to confirm. The last step now is to enter the following command
+Find the line starting with `GRUB_CMDLINE_LINUX_DEFAULT` and add the parameter nomodeset into the quotation marks. My line then looks like this `GRUB_CMDLINE_LINUX_DEFAULT=“video=1280x800@60”` then save by pressing “CTRL+X” then press “Y” then press “Enter” to confirm. The last step now is to enter the following command
 ```
 sudo update-grub
 ```
