@@ -25,10 +25,11 @@
 #### Working
 
 - WiFi (see [issue #2](https://github.com/Manouchehri/vi8/issues/2))
+- 3D acceleration
 
 #### Issue(s)
 
-- No 3D acceleration
+- Some missing drivers
 
 ##### Missing Driver(s)
 
