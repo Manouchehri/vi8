@@ -38,4 +38,4 @@
 - No audio
 - No webcams
 
-Check issue tracker for details on various other problems that have yet to be solved (touch, WiFi, etc).
+Check issue tracker for details on various other problems that have yet to be solved (touch, Bluetooth, etc).
