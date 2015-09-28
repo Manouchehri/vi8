@@ -24,7 +24,7 @@
 
 #### Working
 
-- WiFi (see [issue #2](https://github.com/Manouchehri/vi8/issues/2))
+- WiFi (see [how to](https://github.com/Manouchehri/vi8/blob/master/Ubuntu_instructions.md#wifi))
 - 3D acceleration
 - USB OTG host
 
