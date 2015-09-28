@@ -26,6 +26,7 @@
 
 - WiFi (see [issue #2](https://github.com/Manouchehri/vi8/issues/2))
 - 3D acceleration
+- USB OTG host
 
 #### Issue(s)
 
