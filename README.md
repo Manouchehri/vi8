@@ -29,13 +29,12 @@
 
 #### Issue(s)
 
-- Some missing drivers
-
 ##### Missing Driver(s)
+Check issue tracker for ongoing discussions regarding solving these problems.
 
 - No touchscreen
 - No Bluetooth
 - No audio
 - No webcams
-
-Check issue tracker for details on various other problems that have yet to be solved (touch, Bluetooth, etc).
+- No hardware buttons
+- No accelerometer
