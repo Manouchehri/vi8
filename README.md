@@ -24,7 +24,8 @@
 
 #### Working
 
-- WiFi (see [how to](https://github.com/Manouchehri/vi8/blob/master/Ubuntu_instructions.md#wifi))
+- WiFi (See [how to](https://github.com/Manouchehri/vi8/blob/master/Ubuntu_instructions.md#wifi))
+- Bluetooth (Got it working, instructions comming when I streamline it)
 - 3D acceleration
 - USB OTG host
 
@@ -34,7 +35,6 @@
 Check issue tracker for ongoing discussions regarding solving these problems.
 
 - No touchscreen
-- No Bluetooth
 - No audio
 - No webcams
 - No hardware buttons
