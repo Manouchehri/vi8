@@ -31,7 +31,7 @@ To be determined, but there are lots of things. But it is probably that we can g
 5. Disable Secure Boot
 
 ### Prepare installation media
-Download Ubuntu 15.10 at the time of writing you can download the [daily image](http://cdimage.ubuntu.com/daily-live/current/) or after its released you can go to [Ubuntu.com](ubuntu.com). You want the AMD64 version.
+Download Ubuntu 16.04, at the time of writing you can download the [daily image](http://cdimage.ubuntu.com/daily-live/current/) or after its released you can go to [Ubuntu.com](ubuntu.com). You want the AMD64 version.
 
 If you run Ubuntu on your separate machine use the Startup Disk Creator. 
 
@@ -87,7 +87,7 @@ sudo nano /etc/default/grub
 ```
 enter your password and hit enter
 
-Find the line starting with `GRUB_CMDLINE_LINUX_DEFAULT` and add the parameter nomodeset into the quotation marks. My line then looks like this `GRUB_CMDLINE_LINUX_DEFAULT=“video=1280x800@60”` then save by pressing “CTRL+X” then press “Y” then press “Enter” to confirm. The last step now is to enter the following command
+Find the line starting with `GRUB_CMDLINE_LINUX_DEFAULT` and add the parameter `video=1280x800@60` into the quotation marks. My line then looks like this `GRUB_CMDLINE_LINUX_DEFAULT=“video=1280x800@60”` then save by pressing “CTRL+X” then press “Y” then press “Enter” to confirm. The last step now is to enter the following command
 ```
 sudo update-grub
 ```
