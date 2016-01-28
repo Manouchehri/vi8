@@ -102,10 +102,27 @@ sudo make install
 sudo reboot
 ```
 
-##Bluetooth
+## Bluetooth
 Like all other steps here, easier methods will be provided at a later point
 
 To get this working first get WiFi working with the driver showed in the previous step. Then patch your kernel with [this patch](https://raw.githubusercontent.com/Manouchehri/vi8/master/Ubuntu_support_files/rfkill.patch). Then use [this program](https://github.com/lwfinger/rtl8723bs_bt) to add the firmware to your linux install and also there is a script that needs to be run each boot to turn on the Bluetooth module.
+
+## Touch
+I will not go into detail right now, but https://github.com/onitake/gslx680-acpi driver works. You can download the repo and
+
+```
+sudo apt-get install git
+git clone https://github.com/onitake/gslx680-acpi.git
+wget -O silead_ts.fw https://github.com/Manouchehri/vi8/blob/master/Ubuntu_support_files/silead_ts.fw?raw=true
+sudo mv silead_ts.fw /lib/firmware/
+cd gslx680-acpi
+make
+sudo make install
+wget -O 01-input.conf https://github.com/Manouchehri/vi8/blob/master/Ubuntu_support_files/01-input.conf?raw=true
+sudo mv 01-input.conf /usr/share/X11/xorg.conf.d/
+```
+
+Now reboot or install and run xinput-calibrator.
 
 ##Further research
 I intend to follow up and more devices work. Adding them to this guide.
