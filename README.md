@@ -28,13 +28,13 @@
 - Bluetooth (Got it working, instructions comming when I streamline it)
 - 3D acceleration
 - USB OTG host
+- Touch (need to figure out how to apply it to the login screen)
 
 #### Issue(s)
 
 ##### Missing Driver(s)
 Check issue tracker for ongoing discussions regarding solving these problems.
 
-- No touchscreen
 - No audio
 - No webcams
 - No hardware buttons
