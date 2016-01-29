@@ -9,18 +9,25 @@ This document will instruct you to install Ubuntu 15.10 on the Chuwi Vi8 tablet.
 * Access to Internet
 
 ### Recommended
-* Separate working computer with access to the Internet
-* A second USB stick
-* USB ethernet or WiFi adapter that works with Ubuntu
+* Separate working computer with access to the Internet *and*
+* A second USB stick *or*
+* USB ethernet or WiFi adapter (Then you don't need to do step [Installing 32bit Grub](https://github.com/Manouchehri/vi8/blob/master/Ubuntu_instructions.md#installing-32bit-grub) and don't need to copy some files over manually.
 
 ## Current Status
 ### Works
 * Booting live from USB
 * Installing
+* Graphics acceleration
+* Wifi
+* Bluetooth
+* Touch
 * More
 
-### Does not work
-To be determined, but there are lots of things. But it is probably that we can get most things to work with some tinkering.
+### Does not work yet
+* Audio
+* Accelerometer
+* Lock and volume keys (long press on lock as a power button works)
+* Some freezes I don't know where come from yet
 
 ## Installation
 ### Disable secure boot
@@ -31,7 +38,7 @@ To be determined, but there are lots of things. But it is probably that we can g
 5. Disable Secure Boot
 
 ### Prepare installation media
-Download Ubuntu 16.04, at the time of writing you can download the [daily image](http://cdimage.ubuntu.com/daily-live/current/) or after its released you can go to [Ubuntu.com](ubuntu.com). You want the AMD64 version.
+Download Ubuntu 16.04, at the time of writing you can download the [daily image](http://cdimage.ubuntu.com/daily-live/current/) or after its released you can go to [Ubuntu.com](ubuntu.com). You want the AMD64 version. At the time of writing if you do use the Daily-live image and have working internet during installation (USB ethernet or WIFI) you will not have to fix a broken bootloader after a failed but otherwize functioning Ubuntu install.
 
 If you run Ubuntu on your separate machine use the Startup Disk Creator. 
 
@@ -49,10 +56,14 @@ Use the USB OTG hub and connect at least a keyboard and the USB stick you just p
 Boot by selecting Try Ubuntu
 
 ### Installation
-After the desktop has started I suggest connecting the mouse if you have not already, I presume its possible to do this without the mouse but I won’t go into how to do that. Open the application called Install Ubuntu 15.10 and follow the installation wizard. This guide will also only go into how to make it work without dual boot so I suggest formatting the whole internal flash, this should be one of the preconfigured options in the wizard. For me the installation crashed when the installer tried to install GRUB, if yours does not this is fine as well but the 64Bit GRUB will not work on this tablet anyway even though we have a 64Bit processor and we are now running a 64Bit Linux on it. Nonetheless we have to shutdown the tablet, Ubuntu will not boot on its own right now so continue reading.
+After the desktop has started I suggest connecting the mouse if you have not already, you can fairly easily do this without a mouse by using TAB, space, Arrow and Enter on the keyboard. If you have to few USB ports for both a mouse and a keyboard you can swap between them. Open the application called Install Ubuntu 15.10 and follow the installation wizard. I suggest until more progress on hardware and configuring Ubuntu is made to install without a swap partition, and login automatically. For me it looks like disableing swap removes nearly all freezes, and I have not figured out how to make touch work on the login screen.
+
+If you want to learn more about installing Ubuntu or similar distributions I suggest looking at guides on youtube, I may go into more detail here when the finished installation is more userfriendly.
 
 ### Installing 32Bit GRUB
-On your separate working computer download [grub-efi-ia32-bin](http://packages.ubuntu.com/wily/amd64/grub-efi-ia32-bin/download) and put it on your second USB stick. (Or if you have working internet using a USB adapter you can install it from the terminal with `sudo apt-get install`) Then boot the tablet with the first USB stick in the USB hub and hit Esc on the keyboard to go into the UEFI menu. Now go to Boot Menu and then select your USB stick. This time we are going to use this GRUB to boot into the Ubuntu installation we already installed. So hit “C” on your keyboard to go into the grub shell. I will describe the following steps in a manner to so you will understand how to figure out what to write if there are some differences to your system.
+*If you installed using a USB Ethernet adapter or Wifi dongle, you should not need to do this step and can simply boot and continue doing the next step*
+
+On your separate working computer download [grub-efi-ia32-bin](http://packages.ubuntu.com/wily/amd64/grub-efi-ia32-bin/download) and put it on your second USB stick. Then boot the tablet with the first USB stick in the USB hub and hit Esc on the keyboard to go into the UEFI menu. Now go to Boot Menu and then select your USB stick. This time we are going to use this GRUB to boot into the Ubuntu installation we already installed. So hit “C” on your keyboard to go into the grub shell. I will describe the following steps in a manner to so you will understand how to figure out what to write if there are some differences to your system.
 
 Enter the command 
 
@@ -81,7 +92,11 @@ initrd (hd1,gpt2)/initrd.img
 boot
 ```
 
-You have now booted into the Ubuntu we installed on the internal storage. You can remove the first USB stick. You should have already prepared a second USB stick with the deb file downloaded earlier. After logging in to ubuntu you can plug in the second USB stick and double click on the deb file, then select install. You will be prompted to enter you admin password, the one you selected in the install wizard for your user will work. Now we need to change the settings for grub. We need to edit the file `/boot/grub/grub.cfg` I suggest we use the text editor nano, so open up the terminal application and type
+You have now booted into the Ubuntu we installed on the internal storage. You can remove the first USB stick. You should have already prepared a second USB stick with the deb file downloaded earlier. After logging in to ubuntu you can plug in the second USB stick and double click on the deb file, then select install. You will be prompted to enter you admin password, the one you selected in the install wizard for your user will work. 
+
+### Chaning Grub settings
+
+We need to edit the file `/boot/grub/grub.cfg` I suggest we use the text editor nano, so open up the terminal application and type
 ```
 sudo nano /etc/default/grub
 ```
@@ -97,21 +112,29 @@ and supply your password if needed. You should now be done and have an Ubuntu th
 I will not go into detail right now, but https://github.com/hadess/rtl8723bs driver works. You can download the repo and
 
 ```
+sudo apt-get -y install git
+````
+Enter your password and hit enter
+```
+cd
+git clone https://github.com/hadess/rtl8723bs.git
+cd rtl8723bs
 make
 sudo make install
 sudo reboot
 ```
 
 ## Bluetooth
-Like all other steps here, easier methods will be provided at a later point
-
-To get this working first get WiFi working with the driver showed in the previous step. Then patch your kernel with [this patch](https://raw.githubusercontent.com/Manouchehri/vi8/master/Ubuntu_support_files/rfkill.patch). Then use [this program](https://github.com/lwfinger/rtl8723bs_bt) to add the firmware to your linux install and also there is a script that needs to be run each boot to turn on the Bluetooth module.
+The WiFi drivers indeed are also drivers for bluetooth, but getting bluetooth working is a bit difficult. You need to patch your kernel with [this patch](https://raw.githubusercontent.com/Manouchehri/vi8/master/Ubuntu_support_files/rfkill.patch). Then use [this program](https://github.com/lwfinger/rtl8723bs_bt) to add the firmware to your linux install and also there is a script that needs to be run each boot to turn on the Bluetooth module.
 
 ## Touch
 I will not go into detail right now, but https://github.com/onitake/gslx680-acpi driver works. You can download the repo and
 
 ```
-sudo apt-get install git
+sudo apt-get -y install git
+````
+Enter your password and hit enter
+```
 git clone https://github.com/onitake/gslx680-acpi.git
 wget -O silead_ts.fw https://github.com/Manouchehri/vi8/blob/master/Ubuntu_support_files/silead_ts.fw?raw=true
 sudo mv silead_ts.fw /lib/firmware/
