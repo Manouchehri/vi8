@@ -105,7 +105,7 @@ boot
 You have now booted into the Ubuntu we installed on the internal storage. You can remove the first USB stick. You should have already prepared a second USB stick with the deb file downloaded earlier. After logging in to Ubuntu you can plug in the second USB stick and double click on the deb file, then select install. You will be prompted to enter you admin password, the one you selected in the install wizard for your user will work. 
 
 ### Chaining Grub settings
-**If you installed using a USB Ethernet adapter or WiFi dongle, first time you boot you need to press** `Esc` **in the Grub menu, then press** `e` **to edit the boot script and replace **`quiet splash` **with **`video=1280x800@60`**then press** `F10` **to boot. Then after the successful boot** 
+**If you installed using a USB Ethernet adapter or WiFi dongle, first time you boot you need to press** `Esc` **in the Grub menu, then press** `e` **to edit the boot script and replace** `quiet splash` **with** `video=1280x800@60` **then press** `F10` **to boot. Then after the successful boot** 
 
 We need to edit the file `/boot/grub/grub.cfg` I suggest we use the text editor nano, so open up the terminal application and type
 ```
