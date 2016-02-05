@@ -21,9 +21,10 @@ This document will instruct you to install Ubuntu 15.10 on the Chuwi Vi8 tablet.
 - [x] WiFi
 - [x] Bluetooth
 - [x] Touch
+- [x] Power/Lock button (Lock button default settings are wrong)
 - [ ] Audio
 - [ ] Accelerometer
-- [ ] Lock and volume keys (long press as power works)
+- [ ] Volume buttons
 - [ ] Some freezes 
 
 ## Installation
